@@ -1,0 +1,201 @@
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\VISTA.exe.config
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\VISTA.exe
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\VISTA.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\EntityFramework.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\MODELO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\CONTROLADORA.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\MODELO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\MODELO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\EntityFramework.xml
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.csproj.AssemblyReference.cache
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.frmMenuPrincipal.resources
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.Properties.Resources.resources
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.csproj.GenerateResource.cache
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.csproj.CoreCompileInputs.cache
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.csproj.CopyComplete
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.exe
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.frmSocios.resources
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\VISTA.exe.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\VISTA.exe
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\VISTA.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\EntityFramework.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\MODELO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\CONTROLADORA.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\MODELO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\MODELO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\EntityFramework.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.csproj.AssemblyReference.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.frmMenuPrincipal.resources
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.frmSocios.resources
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.Properties.Resources.resources
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.csproj.GenerateResource.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.csproj.CoreCompileInputs.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.csproj.CopyComplete
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.exe
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\VISTA\obj\Debug\VISTA.csproj.SuggestedBindingRedirects.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\VISTA.exe.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\VISTA.exe
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\VISTA.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\EntityFramework.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\MODELO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CONTROLADORA.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\MODELO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\MODELO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\EntityFramework.xml
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.AssemblyReference.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.SuggestedBindingRedirects.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmMenuPrincipal.resources
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.Properties.Resources.resources
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.GenerateResource.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.CoreCompileInputs.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.CopyComplete
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.exe
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\VISTA.exe.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\VISTA.exe
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\VISTA.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\EntityFramework.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\MODELO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CONTROLADORA.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\MODELO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\MODELO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\EntityFramework.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.AssemblyReference.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmDatosSocio.resources
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmMenuPrincipal.resources
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.Properties.Resources.resources
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.GenerateResource.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.CoreCompileInputs.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.CopyComplete
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.exe
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmGrillaSocios.resources
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CASOS_USO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CASOS_USO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\CASOS_USO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmLogin.resources
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\Microsoft.VisualBasic.PowerPacks.Design.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Design.resources.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmSocios.resources
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmAviones.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\VISTA.exe.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\VISTA.exe
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\VISTA.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\Microsoft.VisualBasic.PowerPacks.Design.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\CASOS_USO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\CONTROLADORA.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\CONTROLADORA.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\MODELO.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\EntityFramework.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\CASOS_USO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\CASOS_USO.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Design.resources.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.csproj.AssemblyReference.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.csproj.SuggestedBindingRedirects.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmAviones.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmSocios.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmLogin.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmMenuPrincipal.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.Properties.Resources.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.csproj.GenerateResource.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.csproj.CoreCompileInputs.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.csproj.CopyComplete
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.exe
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmUsuarios.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmReservas.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmVuelos.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmReportes.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmPronostico.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\System.ValueTuple.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmTaller.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.csproj.AssemblyReference.cache
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.csproj.SuggestedBindingRedirects.cache
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmAviones.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmPronostico.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmReportes.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmReservas.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmSocios.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmLogin.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmMenuPrincipal.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmTaller.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmUsuarios.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmVuelos.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.Properties.Resources.resources
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.csproj.GenerateResource.cache
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.csproj.CoreCompileInputs.cache
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.exe
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\VISTA.exe.config
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\VISTA.exe
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\VISTA.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\CONTROLADORA.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EntityFramework.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\Microsoft.VisualBasic.PowerPacks.Design.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\CASOS_USO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\CONTROLADORA.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\CONTROLADORA.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\MODELO.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EntityFramework.xml
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\CASOS_USO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\CASOS_USO.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Design.resources.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.csproj.CopyComplete
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\itextsharp.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\itextsharp.xml
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EPPlus.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EPPlus.xml
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml

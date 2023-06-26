@@ -1,0 +1,48 @@
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\MODELO.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\MODELO.pdb
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\obj\Debug\CONTEXTO.csproj.AssemblyReference.cache
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\obj\Debug\CONTEXTO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\obj\Debug\CONTEXTO.csproj.CopyComplete
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\obj\Debug\CONTEXTO.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\obj\Debug\CONTEXTO.pdb
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Primera.resources
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\obj\Debug\CONTEXTO.csproj.GenerateResource.cache
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\obj\Debug\CONTEXTO.Migrations.updateClases.resources
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Tercera_updatClases.resources
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.csproj.AssemblyReference.cache
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Primera.resources
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.Migrations.updateClases.resources
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Tercera_updatClases.resources
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.csproj.GenerateResource.cache
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.csproj.CopyComplete
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.Migrations.cambios_modelo.resources
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.Migrations.atributo_aeronave.resources
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\EPPlus.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\EPPlus.xml
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml

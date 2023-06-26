@@ -1,0 +1,42 @@
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\CASOS_USO.dll.config
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\CASOS_USO.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\CASOS_USO.pdb
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\MODELO.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\MODELO.pdb
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\obj\Debug\CASOS_USO.csproj.AssemblyReference.cache
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\obj\Debug\CASOS_USO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\obj\Debug\CASOS_USO.csproj.CopyComplete
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\obj\Debug\CASOS_USO.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\CASOS_USO\obj\Debug\CASOS_USO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\CASOS_USO.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\CASOS_USO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\CASOS_USO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\obj\Debug\CASOS_USO.csproj.AssemblyReference.cache
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\obj\Debug\CASOS_USO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\obj\Debug\CASOS_USO.csproj.CopyComplete
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\obj\Debug\CASOS_USO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\obj\Debug\CASOS_USO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\EPPlus.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\EPPlus.xml
+C:\Users\fabri\Desktop\Pablo FINAL\CASOS_USO\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml

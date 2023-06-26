@@ -1,0 +1,32 @@
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\bin\Debug\MODELO.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\bin\Debug\MODELO.pdb
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\obj\Debug\MODELO.csproj.AssemblyReference.cache
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\obj\Debug\MODELO.csproj.CopyComplete
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\obj\Debug\MODELO.dll
+C:\Users\fabri\source\repos\FINAL_DIPLOMA\MODELO\obj\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\obj\Debug\MODELO.csproj.AssemblyReference.cache
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\obj\Debug\MODELO.csproj.CopyComplete
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\obj\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\obj\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\EPPlus.dll
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\EPPlus.xml
+C:\Users\fabri\Desktop\Pablo FINAL\MODELO\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
