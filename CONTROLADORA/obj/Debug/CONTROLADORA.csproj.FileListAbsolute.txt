@@ -46,3 +46,6 @@ C:\Users\fabri\Desktop\Pablo FINAL\CONTROLADORA\bin\Debug\EPPlus.System.Drawing.
 C:\Users\fabri\Desktop\Pablo FINAL\CONTROLADORA\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
 C:\Users\fabri\Desktop\Pablo FINAL\CONTROLADORA\bin\Debug\EPPlus.xml
 C:\Users\fabri\Desktop\Pablo FINAL\CONTROLADORA\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\fabri\Desktop\Pablo FINAL\CONTROLADORA\bin\Debug\itextsharp.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTROLADORA\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\fabri\Desktop\Pablo FINAL\CONTROLADORA\bin\Debug\itextsharp.xml
