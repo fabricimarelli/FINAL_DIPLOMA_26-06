@@ -199,3 +199,4 @@ C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EPPlus.System.Drawing.dll
 C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
 C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\EPPlus.xml
 C:\Users\fabri\Desktop\Pablo FINAL\VISTA\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\fabri\Desktop\Pablo FINAL\VISTA\obj\Debug\VISTA.frmCursos.resources

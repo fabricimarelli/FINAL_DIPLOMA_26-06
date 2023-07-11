@@ -126,5 +126,10 @@ namespace VISTA
         {
             abrirFromHijo(new frmTaller());
         }
+
+        private void btnCursos_Click(object sender, EventArgs e)
+        {
+            abrirFromHijo(new frmCursos());
+        }
     }
 }
