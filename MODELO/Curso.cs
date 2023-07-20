@@ -11,10 +11,14 @@ namespace MODELO
         #region PROPIEDADES
         public int ID_curso { get; set; }
         public string nombre { get; set; }
-        public bool activo { get; set; }
+        public decimal horasCumplidas { get; set; }
+        public string categoria { get; set; }
+        public string estado { get; set; }
         public Aeronave aeronave { get; set; }
-        public decimal horasVoladas { get; set; }
         public Piloto alumno { get; set; }
+        public Piloto instructor { get; set; }
+        public DateTime fechaInicio { get; set; }
+        public DateTime fechaFin { get; set; }
 
 
         #endregion

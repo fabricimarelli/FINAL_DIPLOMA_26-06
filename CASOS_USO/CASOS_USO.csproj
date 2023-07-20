@@ -69,6 +69,8 @@
   <ItemGroup>
     <Compile Include="Aeronaves\GestionaAeronaves.cs" />
     <Compile Include="Aeronaves\OperacionesAeronaves.cs" />
+    <Compile Include="Cursos\GestionaCursos.cs" />
+    <Compile Include="Cursos\OperacionesCursos.cs" />
     <Compile Include="Mantenimientos\GestionaMantenimientos.cs" />
     <Compile Include="Mantenimientos\OperacionesMantenimientos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

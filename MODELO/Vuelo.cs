@@ -42,6 +42,7 @@ namespace MODELO
     {
         #region PROPIEDADES
         public Piloto alumno { get; set; }
+        public Curso curso { get; set; }
         //public decimal tarifaIns { get; set; }
 
         #endregion

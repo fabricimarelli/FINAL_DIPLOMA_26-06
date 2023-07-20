@@ -57,12 +57,14 @@
             this.txtTiempo = new System.Windows.Forms.TextBox();
             this.cbInstruc = new System.Windows.Forms.CheckBox();
             this.gbDatosVuelo = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dtpFechaVuelo = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.txtObs = new System.Windows.Forms.TextBox();
             this.label99 = new System.Windows.Forms.Label();
             this.cmbAlumno = new System.Windows.Forms.ComboBox();
-            this.dtpFechaVuelo = new System.Windows.Forms.DateTimePicker();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cmbCurso = new System.Windows.Forms.ComboBox();
             this.gbListaVuelos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVuelos)).BeginInit();
             this.gbDatosVuelo.SuspendLayout();
@@ -81,7 +83,7 @@
             this.gbListaVuelos.ForeColor = System.Drawing.Color.White;
             this.gbListaVuelos.Location = new System.Drawing.Point(40, 29);
             this.gbListaVuelos.Name = "gbListaVuelos";
-            this.gbListaVuelos.Size = new System.Drawing.Size(826, 756);
+            this.gbListaVuelos.Size = new System.Drawing.Size(826, 774);
             this.gbListaVuelos.TabIndex = 4;
             this.gbListaVuelos.TabStop = false;
             this.gbListaVuelos.Text = "Listado de vuelos";
@@ -105,7 +107,7 @@
             this.btnConsultar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsultar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Location = new System.Drawing.Point(349, 689);
+            this.btnConsultar.Location = new System.Drawing.Point(351, 719);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(157, 40);
             this.btnConsultar.TabIndex = 5;
@@ -137,7 +139,7 @@
             this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(647, 689);
+            this.btnEliminar.Location = new System.Drawing.Point(647, 719);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(157, 40);
             this.btnEliminar.TabIndex = 6;
@@ -153,7 +155,7 @@
             this.btnEditar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.Location = new System.Drawing.Point(186, 689);
+            this.btnEditar.Location = new System.Drawing.Point(188, 719);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(157, 40);
             this.btnEditar.TabIndex = 4;
@@ -169,7 +171,7 @@
             this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(23, 689);
+            this.btnAgregar.Location = new System.Drawing.Point(25, 719);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(157, 40);
             this.btnAgregar.TabIndex = 3;
@@ -215,13 +217,13 @@
             this.dgvVuelos.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvVuelos.RowTemplate.Height = 24;
             this.dgvVuelos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvVuelos.Size = new System.Drawing.Size(781, 578);
+            this.dgvVuelos.Size = new System.Drawing.Size(781, 606);
             this.dgvVuelos.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(113, 335);
+            this.label2.Location = new System.Drawing.Point(113, 317);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 23);
             this.label2.TabIndex = 10;
@@ -232,7 +234,7 @@
             this.txtTarifa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.txtTarifa.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTarifa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtTarifa.Location = new System.Drawing.Point(117, 361);
+            this.txtTarifa.Location = new System.Drawing.Point(117, 343);
             this.txtTarifa.Name = "txtTarifa";
             this.txtTarifa.Size = new System.Drawing.Size(152, 32);
             this.txtTarifa.TabIndex = 7;
@@ -266,7 +268,7 @@
             this.btnGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Location = new System.Drawing.Point(22, 688);
+            this.btnGuardar.Location = new System.Drawing.Point(19, 719);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(157, 40);
             this.btnGuardar.TabIndex = 15;
@@ -282,7 +284,7 @@
             this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(432, 688);
+            this.btnCancelar.Location = new System.Drawing.Point(432, 719);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(157, 40);
             this.btnCancelar.TabIndex = 16;
@@ -296,7 +298,7 @@
             this.cmbAeronave.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbAeronave.ForeColor = System.Drawing.Color.White;
             this.cmbAeronave.FormattingEnabled = true;
-            this.cmbAeronave.Location = new System.Drawing.Point(117, 156);
+            this.cmbAeronave.Location = new System.Drawing.Point(117, 138);
             this.cmbAeronave.Name = "cmbAeronave";
             this.cmbAeronave.Size = new System.Drawing.Size(409, 29);
             this.cmbAeronave.TabIndex = 27;
@@ -304,7 +306,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(113, 124);
+            this.label1.Location = new System.Drawing.Point(113, 106);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 23);
             this.label1.TabIndex = 28;
@@ -316,7 +318,7 @@
             this.cmbPiloto.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbPiloto.ForeColor = System.Drawing.Color.White;
             this.cmbPiloto.FormattingEnabled = true;
-            this.cmbPiloto.Location = new System.Drawing.Point(117, 223);
+            this.cmbPiloto.Location = new System.Drawing.Point(117, 205);
             this.cmbPiloto.Name = "cmbPiloto";
             this.cmbPiloto.Size = new System.Drawing.Size(409, 29);
             this.cmbPiloto.TabIndex = 29;
@@ -324,7 +326,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(113, 191);
+            this.label3.Location = new System.Drawing.Point(113, 173);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 23);
             this.label3.TabIndex = 30;
@@ -333,7 +335,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(113, 257);
+            this.label4.Location = new System.Drawing.Point(113, 239);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 23);
             this.label4.TabIndex = 32;
@@ -344,7 +346,7 @@
             this.txtTaqSalida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.txtTaqSalida.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTaqSalida.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtTaqSalida.Location = new System.Drawing.Point(117, 289);
+            this.txtTaqSalida.Location = new System.Drawing.Point(117, 271);
             this.txtTaqSalida.Name = "txtTaqSalida";
             this.txtTaqSalida.Size = new System.Drawing.Size(105, 32);
             this.txtTaqSalida.TabIndex = 31;
@@ -352,7 +354,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(256, 257);
+            this.label5.Location = new System.Drawing.Point(256, 239);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(135, 23);
             this.label5.TabIndex = 34;
@@ -363,7 +365,7 @@
             this.txtTaqLlegada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.txtTaqLlegada.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTaqLlegada.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtTaqLlegada.Location = new System.Drawing.Point(274, 289);
+            this.txtTaqLlegada.Location = new System.Drawing.Point(274, 271);
             this.txtTaqLlegada.Name = "txtTaqLlegada";
             this.txtTaqLlegada.Size = new System.Drawing.Size(105, 32);
             this.txtTaqLlegada.TabIndex = 33;
@@ -371,7 +373,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(417, 257);
+            this.label8.Location = new System.Drawing.Point(417, 239);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(80, 23);
             this.label8.TabIndex = 36;
@@ -382,7 +384,7 @@
             this.txtTiempo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.txtTiempo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTiempo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtTiempo.Location = new System.Drawing.Point(421, 289);
+            this.txtTiempo.Location = new System.Drawing.Point(421, 271);
             this.txtTiempo.Name = "txtTiempo";
             this.txtTiempo.Size = new System.Drawing.Size(105, 32);
             this.txtTiempo.TabIndex = 35;
@@ -400,16 +402,18 @@
             // 
             // gbDatosVuelo
             // 
+            this.gbDatosVuelo.Controls.Add(this.label10);
             this.gbDatosVuelo.Controls.Add(this.label7);
+            this.gbDatosVuelo.Controls.Add(this.cmbCurso);
             this.gbDatosVuelo.Controls.Add(this.dtpFechaVuelo);
             this.gbDatosVuelo.Controls.Add(this.label6);
             this.gbDatosVuelo.Controls.Add(this.txtObs);
-            this.gbDatosVuelo.Controls.Add(this.label99);
-            this.gbDatosVuelo.Controls.Add(this.cmbAlumno);
             this.gbDatosVuelo.Controls.Add(this.cbInstruc);
             this.gbDatosVuelo.Controls.Add(this.txtTiempo);
+            this.gbDatosVuelo.Controls.Add(this.label99);
             this.gbDatosVuelo.Controls.Add(this.label8);
             this.gbDatosVuelo.Controls.Add(this.txtTaqLlegada);
+            this.gbDatosVuelo.Controls.Add(this.cmbAlumno);
             this.gbDatosVuelo.Controls.Add(this.label5);
             this.gbDatosVuelo.Controls.Add(this.txtTaqSalida);
             this.gbDatosVuelo.Controls.Add(this.label4);
@@ -427,15 +431,32 @@
             this.gbDatosVuelo.ForeColor = System.Drawing.Color.White;
             this.gbDatosVuelo.Location = new System.Drawing.Point(914, 29);
             this.gbDatosVuelo.Name = "gbDatosVuelo";
-            this.gbDatosVuelo.Size = new System.Drawing.Size(626, 756);
+            this.gbDatosVuelo.Size = new System.Drawing.Size(626, 774);
             this.gbDatosVuelo.TabIndex = 3;
             this.gbDatosVuelo.TabStop = false;
             this.gbDatosVuelo.Text = "Datos vuelo";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(378, 317);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(78, 23);
+            this.label7.TabIndex = 42;
+            this.label7.Text = "Fecha ";
+            // 
+            // dtpFechaVuelo
+            // 
+            this.dtpFechaVuelo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFechaVuelo.Location = new System.Drawing.Point(382, 343);
+            this.dtpFechaVuelo.Name = "dtpFechaVuelo";
+            this.dtpFechaVuelo.Size = new System.Drawing.Size(144, 32);
+            this.dtpFechaVuelo.TabIndex = 41;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(113, 496);
+            this.label6.Location = new System.Drawing.Point(113, 382);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(157, 23);
             this.label6.TabIndex = 40;
@@ -443,17 +464,17 @@
             // 
             // txtObs
             // 
-            this.txtObs.Location = new System.Drawing.Point(117, 528);
+            this.txtObs.Location = new System.Drawing.Point(117, 414);
             this.txtObs.Multiline = true;
             this.txtObs.Name = "txtObs";
             this.txtObs.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtObs.Size = new System.Drawing.Size(409, 127);
+            this.txtObs.Size = new System.Drawing.Size(409, 81);
             this.txtObs.TabIndex = 39;
             // 
             // label99
             // 
             this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(113, 408);
+            this.label99.Location = new System.Drawing.Point(113, 550);
             this.label99.Name = "label99";
             this.label99.Size = new System.Drawing.Size(86, 23);
             this.label99.TabIndex = 38;
@@ -465,27 +486,30 @@
             this.cmbAlumno.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbAlumno.ForeColor = System.Drawing.Color.White;
             this.cmbAlumno.FormattingEnabled = true;
-            this.cmbAlumno.Location = new System.Drawing.Point(117, 440);
+            this.cmbAlumno.Location = new System.Drawing.Point(117, 582);
             this.cmbAlumno.Name = "cmbAlumno";
-            this.cmbAlumno.Size = new System.Drawing.Size(409, 29);
+            this.cmbAlumno.Size = new System.Drawing.Size(185, 29);
             this.cmbAlumno.TabIndex = 37;
             // 
-            // dtpFechaVuelo
+            // label10
             // 
-            this.dtpFechaVuelo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaVuelo.Location = new System.Drawing.Point(382, 361);
-            this.dtpFechaVuelo.Name = "dtpFechaVuelo";
-            this.dtpFechaVuelo.Size = new System.Drawing.Size(144, 32);
-            this.dtpFechaVuelo.TabIndex = 41;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(337, 550);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(65, 23);
+            this.label10.TabIndex = 44;
+            this.label10.Text = "Curso";
             // 
-            // label7
+            // cmbCurso
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(378, 335);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(78, 23);
-            this.label7.TabIndex = 42;
-            this.label7.Text = "Fecha ";
+            this.cmbCurso.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.cmbCurso.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCurso.ForeColor = System.Drawing.Color.White;
+            this.cmbCurso.FormattingEnabled = true;
+            this.cmbCurso.Location = new System.Drawing.Point(341, 582);
+            this.cmbCurso.Name = "cmbCurso";
+            this.cmbCurso.Size = new System.Drawing.Size(185, 29);
+            this.cmbCurso.TabIndex = 43;
             // 
             // frmVuelos
             // 
@@ -539,5 +563,7 @@
         private System.Windows.Forms.ComboBox cmbAlumno;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DateTimePicker dtpFechaVuelo;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ComboBox cmbCurso;
     }
 }

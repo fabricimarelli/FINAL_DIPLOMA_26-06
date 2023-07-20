@@ -29,33 +29,36 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCursos));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.gbListaMant = new System.Windows.Forms.GroupBox();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.gbListaCursos = new System.Windows.Forms.GroupBox();
             this.btnReload = new System.Windows.Forms.Button();
-            this.cmbMantenimientos = new System.Windows.Forms.ComboBox();
+            this.cmbCursos = new System.Windows.Forms.ComboBox();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.dgvReparaciones = new System.Windows.Forms.DataGridView();
-            this.gbDatosMant = new System.Windows.Forms.GroupBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.dgvCursos = new System.Windows.Forms.DataGridView();
+            this.gbDatosCurso = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtHorasCumplidas = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.gbCategoria = new System.Windows.Forms.GroupBox();
+            this.rbAdap = new System.Windows.Forms.RadioButton();
             this.rbAeroap = new System.Windows.Forms.RadioButton();
             this.rbPCA = new System.Windows.Forms.RadioButton();
             this.rbPPA = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbAlumno = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbInstructor = new System.Windows.Forms.ComboBox();
             this.gbEstado = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rbCancelado = new System.Windows.Forms.RadioButton();
             this.rbFinalizado = new System.Windows.Forms.RadioButton();
             this.rbProceso = new System.Windows.Forms.RadioButton();
-            this.rbPendiente = new System.Windows.Forms.RadioButton();
             this.label7 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
@@ -66,31 +69,31 @@
             this.txtID = new System.Windows.Forms.TextBox();
             this.cmbAeronave = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.gbListaMant.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvReparaciones)).BeginInit();
-            this.gbDatosMant.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.gbListaCursos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCursos)).BeginInit();
+            this.gbDatosCurso.SuspendLayout();
+            this.gbCategoria.SuspendLayout();
             this.gbEstado.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gbListaMant
+            // gbListaCursos
             // 
-            this.gbListaMant.Controls.Add(this.btnReload);
-            this.gbListaMant.Controls.Add(this.cmbMantenimientos);
-            this.gbListaMant.Controls.Add(this.btnConsultar);
-            this.gbListaMant.Controls.Add(this.btnBuscar);
-            this.gbListaMant.Controls.Add(this.btnEliminar);
-            this.gbListaMant.Controls.Add(this.btnEditar);
-            this.gbListaMant.Controls.Add(this.btnAgregar);
-            this.gbListaMant.Controls.Add(this.dgvReparaciones);
-            this.gbListaMant.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbListaMant.ForeColor = System.Drawing.Color.White;
-            this.gbListaMant.Location = new System.Drawing.Point(53, 12);
-            this.gbListaMant.Name = "gbListaMant";
-            this.gbListaMant.Size = new System.Drawing.Size(826, 756);
-            this.gbListaMant.TabIndex = 12;
-            this.gbListaMant.TabStop = false;
-            this.gbListaMant.Text = "Listado de cursos";
+            this.gbListaCursos.Controls.Add(this.btnReload);
+            this.gbListaCursos.Controls.Add(this.cmbCursos);
+            this.gbListaCursos.Controls.Add(this.btnConsultar);
+            this.gbListaCursos.Controls.Add(this.btnBuscar);
+            this.gbListaCursos.Controls.Add(this.btnEliminar);
+            this.gbListaCursos.Controls.Add(this.btnEditar);
+            this.gbListaCursos.Controls.Add(this.btnAgregar);
+            this.gbListaCursos.Controls.Add(this.dgvCursos);
+            this.gbListaCursos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbListaCursos.ForeColor = System.Drawing.Color.White;
+            this.gbListaCursos.Location = new System.Drawing.Point(53, 12);
+            this.gbListaCursos.Name = "gbListaCursos";
+            this.gbListaCursos.Size = new System.Drawing.Size(826, 756);
+            this.gbListaCursos.TabIndex = 12;
+            this.gbListaCursos.TabStop = false;
+            this.gbListaCursos.Text = "Listado de cursos";
             // 
             // btnReload
             // 
@@ -107,16 +110,16 @@
             this.btnReload.TabIndex = 10;
             this.btnReload.UseVisualStyleBackColor = false;
             // 
-            // cmbMantenimientos
+            // cmbCursos
             // 
-            this.cmbMantenimientos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.cmbMantenimientos.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbMantenimientos.ForeColor = System.Drawing.Color.White;
-            this.cmbMantenimientos.FormattingEnabled = true;
-            this.cmbMantenimientos.Location = new System.Drawing.Point(169, 38);
-            this.cmbMantenimientos.Name = "cmbMantenimientos";
-            this.cmbMantenimientos.Size = new System.Drawing.Size(429, 29);
-            this.cmbMantenimientos.TabIndex = 9;
+            this.cmbCursos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.cmbCursos.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCursos.ForeColor = System.Drawing.Color.White;
+            this.cmbCursos.FormattingEnabled = true;
+            this.cmbCursos.Location = new System.Drawing.Point(169, 38);
+            this.cmbCursos.Name = "cmbCursos";
+            this.cmbCursos.Size = new System.Drawing.Size(429, 29);
+            this.cmbCursos.TabIndex = 9;
             // 
             // btnConsultar
             // 
@@ -132,6 +135,7 @@
             this.btnConsultar.TabIndex = 5;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = false;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // btnBuscar
             // 
@@ -147,6 +151,7 @@
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnEliminar
             // 
@@ -162,6 +167,7 @@
             this.btnEliminar.TabIndex = 6;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -177,6 +183,7 @@
             this.btnEditar.TabIndex = 4;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnAgregar
             // 
@@ -192,100 +199,149 @@
             this.btnAgregar.TabIndex = 3;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // dgvReparaciones
+            // dgvCursos
             // 
-            this.dgvReparaciones.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dgvReparaciones.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dgvReparaciones.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.dgvReparaciones.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvReparaciones.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvReparaciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvReparaciones.ColumnHeadersHeight = 30;
-            this.dgvReparaciones.EnableHeadersVisualStyles = false;
-            this.dgvReparaciones.GridColor = System.Drawing.SystemColors.HotTrack;
-            this.dgvReparaciones.Location = new System.Drawing.Point(23, 77);
-            this.dgvReparaciones.Name = "dgvReparaciones";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvReparaciones.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvReparaciones.RowHeadersVisible = false;
-            this.dgvReparaciones.RowHeadersWidth = 51;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvReparaciones.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvReparaciones.RowTemplate.Height = 24;
-            this.dgvReparaciones.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvReparaciones.Size = new System.Drawing.Size(781, 589);
-            this.dgvReparaciones.TabIndex = 0;
+            this.dgvCursos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvCursos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvCursos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.dgvCursos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvCursos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle25.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCursos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
+            this.dgvCursos.ColumnHeadersHeight = 30;
+            this.dgvCursos.EnableHeadersVisualStyles = false;
+            this.dgvCursos.GridColor = System.Drawing.SystemColors.HotTrack;
+            this.dgvCursos.Location = new System.Drawing.Point(23, 77);
+            this.dgvCursos.Name = "dgvCursos";
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCursos.RowHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            this.dgvCursos.RowHeadersVisible = false;
+            this.dgvCursos.RowHeadersWidth = 51;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvCursos.RowsDefaultCellStyle = dataGridViewCellStyle27;
+            this.dgvCursos.RowTemplate.Height = 24;
+            this.dgvCursos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvCursos.Size = new System.Drawing.Size(781, 589);
+            this.dgvCursos.TabIndex = 0;
             // 
-            // gbDatosMant
+            // gbDatosCurso
             // 
-            this.gbDatosMant.Controls.Add(this.groupBox1);
-            this.gbDatosMant.Controls.Add(this.label4);
-            this.gbDatosMant.Controls.Add(this.comboBox2);
-            this.gbDatosMant.Controls.Add(this.label3);
-            this.gbDatosMant.Controls.Add(this.comboBox1);
-            this.gbDatosMant.Controls.Add(this.gbEstado);
-            this.gbDatosMant.Controls.Add(this.label7);
-            this.gbDatosMant.Controls.Add(this.btnCancelar);
-            this.gbDatosMant.Controls.Add(this.btnGuardar);
-            this.gbDatosMant.Controls.Add(this.dtpFin);
-            this.gbDatosMant.Controls.Add(this.dtpInicio);
-            this.gbDatosMant.Controls.Add(this.label9);
-            this.gbDatosMant.Controls.Add(this.label5);
-            this.gbDatosMant.Controls.Add(this.txtID);
-            this.gbDatosMant.Controls.Add(this.cmbAeronave);
-            this.gbDatosMant.Controls.Add(this.label1);
-            this.gbDatosMant.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbDatosMant.ForeColor = System.Drawing.Color.White;
-            this.gbDatosMant.Location = new System.Drawing.Point(903, 12);
-            this.gbDatosMant.Name = "gbDatosMant";
-            this.gbDatosMant.Size = new System.Drawing.Size(665, 756);
-            this.gbDatosMant.TabIndex = 14;
-            this.gbDatosMant.TabStop = false;
-            this.gbDatosMant.Text = "Datos del curso";
+            this.gbDatosCurso.Controls.Add(this.label6);
+            this.gbDatosCurso.Controls.Add(this.txtHorasCumplidas);
+            this.gbDatosCurso.Controls.Add(this.label2);
+            this.gbDatosCurso.Controls.Add(this.txtNombre);
+            this.gbDatosCurso.Controls.Add(this.gbCategoria);
+            this.gbDatosCurso.Controls.Add(this.label4);
+            this.gbDatosCurso.Controls.Add(this.cmbAlumno);
+            this.gbDatosCurso.Controls.Add(this.label3);
+            this.gbDatosCurso.Controls.Add(this.cmbInstructor);
+            this.gbDatosCurso.Controls.Add(this.gbEstado);
+            this.gbDatosCurso.Controls.Add(this.label7);
+            this.gbDatosCurso.Controls.Add(this.btnCancelar);
+            this.gbDatosCurso.Controls.Add(this.btnGuardar);
+            this.gbDatosCurso.Controls.Add(this.dtpFin);
+            this.gbDatosCurso.Controls.Add(this.dtpInicio);
+            this.gbDatosCurso.Controls.Add(this.label9);
+            this.gbDatosCurso.Controls.Add(this.label5);
+            this.gbDatosCurso.Controls.Add(this.txtID);
+            this.gbDatosCurso.Controls.Add(this.cmbAeronave);
+            this.gbDatosCurso.Controls.Add(this.label1);
+            this.gbDatosCurso.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbDatosCurso.ForeColor = System.Drawing.Color.White;
+            this.gbDatosCurso.Location = new System.Drawing.Point(903, 12);
+            this.gbDatosCurso.Name = "gbDatosCurso";
+            this.gbDatosCurso.Size = new System.Drawing.Size(665, 756);
+            this.gbDatosCurso.TabIndex = 14;
+            this.gbDatosCurso.TabStop = false;
+            this.gbDatosCurso.Text = "Datos del curso";
             // 
-            // groupBox1
+            // label6
             // 
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.rbAeroap);
-            this.groupBox1.Controls.Add(this.rbPCA);
-            this.groupBox1.Controls.Add(this.rbPPA);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(22, 113);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(259, 197);
-            this.groupBox1.TabIndex = 50;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Estado";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(408, 128);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(147, 21);
+            this.label6.TabIndex = 54;
+            this.label6.Text = "Horas cumplidas";
             // 
-            // radioButton2
+            // txtHorasCumplidas
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(12, 124);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(134, 25);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Adaptación";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.txtHorasCumplidas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.txtHorasCumplidas.Enabled = false;
+            this.txtHorasCumplidas.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHorasCumplidas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtHorasCumplidas.Location = new System.Drawing.Point(412, 152);
+            this.txtHorasCumplidas.Name = "txtHorasCumplidas";
+            this.txtHorasCumplidas.ReadOnly = true;
+            this.txtHorasCumplidas.Size = new System.Drawing.Size(211, 28);
+            this.txtHorasCumplidas.TabIndex = 53;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(18, 128);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 21);
+            this.label2.TabIndex = 52;
+            this.label2.Text = "Nombre";
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.txtNombre.Enabled = false;
+            this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtNombre.Location = new System.Drawing.Point(22, 152);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.ReadOnly = true;
+            this.txtNombre.Size = new System.Drawing.Size(259, 28);
+            this.txtNombre.TabIndex = 51;
+            // 
+            // gbCategoria
+            // 
+            this.gbCategoria.Controls.Add(this.rbAdap);
+            this.gbCategoria.Controls.Add(this.rbAeroap);
+            this.gbCategoria.Controls.Add(this.rbPCA);
+            this.gbCategoria.Controls.Add(this.rbPPA);
+            this.gbCategoria.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.gbCategoria.ForeColor = System.Drawing.Color.White;
+            this.gbCategoria.Location = new System.Drawing.Point(22, 229);
+            this.gbCategoria.Name = "gbCategoria";
+            this.gbCategoria.Size = new System.Drawing.Size(259, 197);
+            this.gbCategoria.TabIndex = 50;
+            this.gbCategoria.TabStop = false;
+            this.gbCategoria.Text = "Categoria";
+            // 
+            // rbAdap
+            // 
+            this.rbAdap.AutoSize = true;
+            this.rbAdap.Location = new System.Drawing.Point(12, 124);
+            this.rbAdap.Name = "rbAdap";
+            this.rbAdap.Size = new System.Drawing.Size(134, 25);
+            this.rbAdap.TabIndex = 3;
+            this.rbAdap.TabStop = true;
+            this.rbAdap.Text = "Adaptación";
+            this.rbAdap.UseVisualStyleBackColor = true;
             // 
             // rbAeroap
             // 
@@ -324,74 +380,73 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(287, 219);
+            this.label4.Location = new System.Drawing.Point(287, 335);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(72, 21);
             this.label4.TabIndex = 49;
             this.label4.Text = "Alumno";
             // 
-            // comboBox2
+            // cmbAlumno
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.comboBox2.ForeColor = System.Drawing.Color.White;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(412, 216);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(211, 29);
-            this.comboBox2.TabIndex = 48;
+            this.cmbAlumno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.cmbAlumno.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.cmbAlumno.ForeColor = System.Drawing.Color.White;
+            this.cmbAlumno.FormattingEnabled = true;
+            this.cmbAlumno.Location = new System.Drawing.Point(412, 332);
+            this.cmbAlumno.Name = "cmbAlumno";
+            this.cmbAlumno.Size = new System.Drawing.Size(211, 29);
+            this.cmbAlumno.TabIndex = 48;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(287, 174);
+            this.label3.Location = new System.Drawing.Point(287, 290);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 21);
             this.label3.TabIndex = 47;
             this.label3.Text = "Instructor";
             // 
-            // comboBox1
+            // cmbInstructor
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.comboBox1.ForeColor = System.Drawing.Color.White;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(412, 171);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(211, 29);
-            this.comboBox1.TabIndex = 46;
+            this.cmbInstructor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.cmbInstructor.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.cmbInstructor.ForeColor = System.Drawing.Color.White;
+            this.cmbInstructor.FormattingEnabled = true;
+            this.cmbInstructor.Location = new System.Drawing.Point(412, 287);
+            this.cmbInstructor.Name = "cmbInstructor";
+            this.cmbInstructor.Size = new System.Drawing.Size(211, 29);
+            this.cmbInstructor.TabIndex = 46;
             // 
             // gbEstado
             // 
-            this.gbEstado.Controls.Add(this.radioButton1);
+            this.gbEstado.Controls.Add(this.rbCancelado);
             this.gbEstado.Controls.Add(this.rbFinalizado);
             this.gbEstado.Controls.Add(this.rbProceso);
-            this.gbEstado.Controls.Add(this.rbPendiente);
             this.gbEstado.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.gbEstado.ForeColor = System.Drawing.Color.White;
-            this.gbEstado.Location = new System.Drawing.Point(22, 384);
+            this.gbEstado.Location = new System.Drawing.Point(22, 500);
             this.gbEstado.Name = "gbEstado";
             this.gbEstado.Size = new System.Drawing.Size(601, 110);
             this.gbEstado.TabIndex = 45;
             this.gbEstado.TabStop = false;
             this.gbEstado.Text = "Estado";
             // 
-            // radioButton1
+            // rbCancelado
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(455, 52);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(127, 25);
-            this.radioButton1.TabIndex = 3;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Cancelado";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbCancelado.AutoSize = true;
+            this.rbCancelado.Location = new System.Drawing.Point(406, 52);
+            this.rbCancelado.Name = "rbCancelado";
+            this.rbCancelado.Size = new System.Drawing.Size(127, 25);
+            this.rbCancelado.TabIndex = 3;
+            this.rbCancelado.TabStop = true;
+            this.rbCancelado.Text = "Cancelado";
+            this.rbCancelado.UseVisualStyleBackColor = true;
             // 
             // rbFinalizado
             // 
             this.rbFinalizado.AutoSize = true;
-            this.rbFinalizado.Location = new System.Drawing.Point(315, 52);
+            this.rbFinalizado.Location = new System.Drawing.Point(263, 52);
             this.rbFinalizado.Name = "rbFinalizado";
             this.rbFinalizado.Size = new System.Drawing.Size(112, 25);
             this.rbFinalizado.TabIndex = 2;
@@ -402,7 +457,7 @@
             // rbProceso
             // 
             this.rbProceso.AutoSize = true;
-            this.rbProceso.Location = new System.Drawing.Point(157, 52);
+            this.rbProceso.Location = new System.Drawing.Point(86, 52);
             this.rbProceso.Name = "rbProceso";
             this.rbProceso.Size = new System.Drawing.Size(123, 25);
             this.rbProceso.TabIndex = 1;
@@ -410,22 +465,11 @@
             this.rbProceso.Text = "En proceso";
             this.rbProceso.UseVisualStyleBackColor = true;
             // 
-            // rbPendiente
-            // 
-            this.rbPendiente.AutoSize = true;
-            this.rbPendiente.Location = new System.Drawing.Point(18, 52);
-            this.rbPendiente.Name = "rbPendiente";
-            this.rbPendiente.Size = new System.Drawing.Size(116, 25);
-            this.rbPendiente.TabIndex = 0;
-            this.rbPendiente.TabStop = true;
-            this.rbPendiente.Text = "Pendiente";
-            this.rbPendiente.UseVisualStyleBackColor = true;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(473, 258);
+            this.label7.Location = new System.Drawing.Point(473, 374);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 21);
             this.label7.TabIndex = 31;
@@ -445,6 +489,7 @@
             this.btnCancelar.TabIndex = 16;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnGuardar
             // 
@@ -460,13 +505,14 @@
             this.btnGuardar.TabIndex = 15;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // dtpFin
             // 
             this.dtpFin.CustomFormat = "";
             this.dtpFin.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.dtpFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFin.Location = new System.Drawing.Point(477, 282);
+            this.dtpFin.Location = new System.Drawing.Point(477, 398);
             this.dtpFin.MaxDate = new System.DateTime(2040, 12, 31, 0, 0, 0, 0);
             this.dtpFin.MinDate = new System.DateTime(1901, 1, 1, 0, 0, 0, 0);
             this.dtpFin.Name = "dtpFin";
@@ -478,7 +524,7 @@
             this.dtpInicio.CustomFormat = "";
             this.dtpInicio.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.dtpInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpInicio.Location = new System.Drawing.Point(293, 282);
+            this.dtpInicio.Location = new System.Drawing.Point(293, 398);
             this.dtpInicio.MaxDate = new System.DateTime(2040, 12, 31, 0, 0, 0, 0);
             this.dtpInicio.MinDate = new System.DateTime(1901, 1, 1, 0, 0, 0, 0);
             this.dtpInicio.Name = "dtpInicio";
@@ -499,7 +545,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(289, 258);
+            this.label5.Location = new System.Drawing.Point(289, 374);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(108, 21);
             this.label5.TabIndex = 29;
@@ -522,7 +568,7 @@
             this.cmbAeronave.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.cmbAeronave.ForeColor = System.Drawing.Color.White;
             this.cmbAeronave.FormattingEnabled = true;
-            this.cmbAeronave.Location = new System.Drawing.Point(412, 127);
+            this.cmbAeronave.Location = new System.Drawing.Point(412, 243);
             this.cmbAeronave.Name = "cmbAeronave";
             this.cmbAeronave.Size = new System.Drawing.Size(211, 29);
             this.cmbAeronave.TabIndex = 11;
@@ -531,7 +577,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(287, 130);
+            this.label1.Location = new System.Drawing.Point(287, 246);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 21);
             this.label1.TabIndex = 27;
@@ -543,17 +589,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1580, 815);
-            this.Controls.Add(this.gbDatosMant);
-            this.Controls.Add(this.gbListaMant);
+            this.Controls.Add(this.gbDatosCurso);
+            this.Controls.Add(this.gbListaCursos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmCursos";
             this.Text = "frmCursos";
-            this.gbListaMant.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvReparaciones)).EndInit();
-            this.gbDatosMant.ResumeLayout(false);
-            this.gbDatosMant.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gbListaCursos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCursos)).EndInit();
+            this.gbDatosCurso.ResumeLayout(false);
+            this.gbDatosCurso.PerformLayout();
+            this.gbCategoria.ResumeLayout(false);
+            this.gbCategoria.PerformLayout();
             this.gbEstado.ResumeLayout(false);
             this.gbEstado.PerformLayout();
             this.ResumeLayout(false);
@@ -562,20 +608,19 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox gbListaMant;
+        private System.Windows.Forms.GroupBox gbListaCursos;
         private System.Windows.Forms.Button btnReload;
-        private System.Windows.Forms.ComboBox cmbMantenimientos;
+        private System.Windows.Forms.ComboBox cmbCursos;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.DataGridView dgvReparaciones;
-        private System.Windows.Forms.GroupBox gbDatosMant;
+        private System.Windows.Forms.DataGridView dgvCursos;
+        private System.Windows.Forms.GroupBox gbDatosCurso;
         private System.Windows.Forms.GroupBox gbEstado;
         private System.Windows.Forms.RadioButton rbFinalizado;
         private System.Windows.Forms.RadioButton rbProceso;
-        private System.Windows.Forms.RadioButton rbPendiente;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DateTimePicker dtpFin;
         private System.Windows.Forms.Label label5;
@@ -586,15 +631,19 @@
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.GroupBox gbCategoria;
+        private System.Windows.Forms.RadioButton rbAdap;
         private System.Windows.Forms.RadioButton rbAeroap;
         private System.Windows.Forms.RadioButton rbPCA;
         private System.Windows.Forms.RadioButton rbPPA;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbAlumno;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.ComboBox cmbInstructor;
+        private System.Windows.Forms.RadioButton rbCancelado;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtHorasCumplidas;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtNombre;
     }
 }

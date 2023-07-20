@@ -93,6 +93,10 @@
     <Compile Include="Migrations\202306242205024_atributo_aeronave.designer.cs">
       <DependentUpon>202306242205024_atributo_aeronave.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202307180232209_cursosVuelos.cs" />
+    <Compile Include="Migrations\202307180232209_cursosVuelos.designer.cs">
+      <DependentUpon>202307180232209_cursosVuelos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -121,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202306242205024_atributo_aeronave.resx">
       <DependentUpon>202306242205024_atributo_aeronave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307180232209_cursosVuelos.resx">
+      <DependentUpon>202307180232209_cursosVuelos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
