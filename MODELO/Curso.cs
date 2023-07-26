@@ -22,7 +22,10 @@ namespace MODELO
 
 
         #endregion
-
+        public override string ToString()
+        {
+            return nombre;
+        }
         #region METODOS
         #endregion
     }

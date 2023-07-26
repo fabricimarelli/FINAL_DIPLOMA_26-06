@@ -57,14 +57,14 @@
             this.txtTiempo = new System.Windows.Forms.TextBox();
             this.cbInstruc = new System.Windows.Forms.CheckBox();
             this.gbDatosVuelo = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.cmbCurso = new System.Windows.Forms.ComboBox();
             this.dtpFechaVuelo = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.txtObs = new System.Windows.Forms.TextBox();
             this.label99 = new System.Windows.Forms.Label();
             this.cmbAlumno = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.cmbCurso = new System.Windows.Forms.ComboBox();
             this.gbListaVuelos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVuelos)).BeginInit();
             this.gbDatosVuelo.SuspendLayout();
@@ -436,6 +436,15 @@
             this.gbDatosVuelo.TabStop = false;
             this.gbDatosVuelo.Text = "Datos vuelo";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(113, 588);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(65, 23);
+            this.label10.TabIndex = 44;
+            this.label10.Text = "Curso";
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -444,6 +453,17 @@
             this.label7.Size = new System.Drawing.Size(78, 23);
             this.label7.TabIndex = 42;
             this.label7.Text = "Fecha ";
+            // 
+            // cmbCurso
+            // 
+            this.cmbCurso.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.cmbCurso.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCurso.ForeColor = System.Drawing.Color.White;
+            this.cmbCurso.FormattingEnabled = true;
+            this.cmbCurso.Location = new System.Drawing.Point(117, 620);
+            this.cmbCurso.Name = "cmbCurso";
+            this.cmbCurso.Size = new System.Drawing.Size(409, 29);
+            this.cmbCurso.TabIndex = 43;
             // 
             // dtpFechaVuelo
             // 
@@ -474,7 +494,7 @@
             // label99
             // 
             this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(113, 550);
+            this.label99.Location = new System.Drawing.Point(113, 514);
             this.label99.Name = "label99";
             this.label99.Size = new System.Drawing.Size(86, 23);
             this.label99.TabIndex = 38;
@@ -486,30 +506,10 @@
             this.cmbAlumno.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbAlumno.ForeColor = System.Drawing.Color.White;
             this.cmbAlumno.FormattingEnabled = true;
-            this.cmbAlumno.Location = new System.Drawing.Point(117, 582);
+            this.cmbAlumno.Location = new System.Drawing.Point(117, 546);
             this.cmbAlumno.Name = "cmbAlumno";
-            this.cmbAlumno.Size = new System.Drawing.Size(185, 29);
+            this.cmbAlumno.Size = new System.Drawing.Size(409, 29);
             this.cmbAlumno.TabIndex = 37;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(337, 550);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 23);
-            this.label10.TabIndex = 44;
-            this.label10.Text = "Curso";
-            // 
-            // cmbCurso
-            // 
-            this.cmbCurso.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.cmbCurso.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbCurso.ForeColor = System.Drawing.Color.White;
-            this.cmbCurso.FormattingEnabled = true;
-            this.cmbCurso.Location = new System.Drawing.Point(341, 582);
-            this.cmbCurso.Name = "cmbCurso";
-            this.cmbCurso.Size = new System.Drawing.Size(185, 29);
-            this.cmbCurso.TabIndex = 43;
             // 
             // frmVuelos
             // 

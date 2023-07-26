@@ -61,5 +61,10 @@ namespace CONTROLADORA
         {
             return CASOS_USO.Cursos.GestionaCursos.ObtieneCurso(oAeroclub, ID_aeronave);
         }
+
+        public Curso ObtenerUNCurso(string nombre)
+        {
+            return CASOS_USO.Cursos.GestionaCursos.ObtenerUNCurso(oAeroclub, nombre);
+        }
     }
 }

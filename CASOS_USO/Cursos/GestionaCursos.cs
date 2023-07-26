@@ -28,5 +28,14 @@ namespace CASOS_USO.Cursos
                          select vuelo;
             return cursos.ToList();
         }
+
+        public static Curso ObtenerUNCurso(Aeroclub aeroclub, string nombre)//prueba
+        {
+            var curso = from Cursos in aeroclub.Cursos
+                         where (nombre != null ? Cursos.nombre == nombre : true)
+                         select Cursos;
+            return curso.First();
+
+        }
     }
 }

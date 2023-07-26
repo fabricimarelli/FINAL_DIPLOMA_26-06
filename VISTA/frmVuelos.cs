@@ -27,6 +27,7 @@ namespace VISTA
         private Vuelos cVuelos;
         private Aeronaves cAeronaves;
         private Socios cSocios;
+        private Cursos cCursos;
         private Vuelo oVuelo;
         char ACCION;
         decimal origTime = 0.1m;
@@ -38,6 +39,7 @@ namespace VISTA
             cVuelos = Vuelos.ObtenerInstancia();
             cAeronaves = Aeronaves.ObtenerInstancia();
             cSocios = Socios.ObtenerInstancia();
+            cCursos= Cursos.ObtenerInstancia();
             MODO_GRILLA();
             ARMA_GRILLA_MATRICULA();
             //ARMA_GRILLA();
@@ -80,12 +82,13 @@ namespace VISTA
                 btnGuardar.Enabled = true;
             }
             cmbAlumno.Enabled = false;
+            cmbCurso.Enabled = false;
             txtTarifa.Enabled = false;
             txtTiempo.Enabled = false;
             COMBO_AERONAVES();
             COMBO_PILOTOS();
             COMBO_ALUMNOS();
-
+            COMBO_CURSOS();
         }
 
         private void LIMPIAR()
@@ -132,6 +135,7 @@ namespace VISTA
                 cbInstruc.Checked = true;
 
                 cmbAlumno.SelectedItem=((Instruccion)oVuelo).alumno;
+                cmbCurso.SelectedItem = ((Instruccion)oVuelo).curso;
             }
             
         }
@@ -166,7 +170,7 @@ namespace VISTA
             //le pido al banco la lisya de clientes y la asigno como arreglo
             cmbPiloto.Items.AddRange(listaPilotosSinLicencia.ToArray());
 
-            cmbPiloto.DisplayMember = "apellido";
+            cmbPiloto.DisplayMember = "nombre";
 
         }
 
@@ -189,7 +193,7 @@ namespace VISTA
             //le pido al banco la lisya de clientes y la asigno como arreglo
             cmbAlumno.Items.AddRange(listaPilotosSinLicencia.ToArray());
 
-            cmbAlumno.DisplayMember = "apellido";
+            cmbAlumno.DisplayMember = "nombre";
         }
 
 
@@ -204,6 +208,15 @@ namespace VISTA
             cmbAeronave.DisplayMember = "matricula";
             cmbAeronave.ValueMember = "matricula";
 
+        }
+
+        private void COMBO_CURSOS()
+        {
+            cmbCurso.Items.Clear();
+            cmbCurso.Items.AddRange(cCursos.ObtenerCursos().ToArray());
+            //cmbCurso.Items.Insert(0, new MODELO.Curso { nombre });
+            cmbCurso.DisplayMember = "nombre";
+            cmbCurso.ValueMember = "nombre";
         }
 
         private void ARMA_GRILLA_MATRICULA()//REVISAR, NO ANDA
@@ -317,6 +330,11 @@ namespace VISTA
                     MessageBox.Show("Seleccione un alumno");
                     return;
                 }
+                if(cmbCurso.SelectedIndex == -1)
+                {
+                    MessageBox.Show("Seleccione un curso");
+                    return;
+                }
             }
             #endregion
             if (ACCION == 'A')
@@ -347,6 +365,7 @@ namespace VISTA
             if(oVuelo.GetType() == typeof(Instruccion))
             {
                 ((Instruccion)oVuelo).alumno = (Piloto)cmbAlumno.SelectedItem;
+                ((Instruccion)oVuelo).curso=(Curso)cmbCurso.SelectedItem;
                 //MessageBox.Show("ENtro caltuclo tarifa ins " + ((Instruccion)oVuelo).CALCULAR_TARIFA_INS());
                 oVuelo.tarifa= ((Instruccion)oVuelo).CALCULAR_TARIFA();
             }
@@ -375,7 +394,7 @@ namespace VISTA
 
         }
 
-        private void MODIFICA_AERONAVE(Vuelo oVuelo)//para modificar el taquimetro del avion involucrado
+        private void MODIFICA_AERONAVE(Vuelo oVuelo)//para modificar el taquimetro del avion involucrado horas del piloto y alumno
         {
             
             if(ACCION == 'A')
@@ -383,9 +402,19 @@ namespace VISTA
                 Aeronave oAeronaveSelec = (Aeronave)cmbAeronave.SelectedItem;
                 Piloto oPilotoSelec=(Piloto)cmbPiloto.SelectedItem;
                 oAeronaveSelec.taquimetro += oVuelo.tiempo;
-                oPilotoSelec.horasVoladas+=oVuelo.tiempo; 
+                oPilotoSelec.horasVoladas+=oVuelo.tiempo;
                 cAeronaves.ModificarAeronave(oAeronaveSelec);
                 cSocios.ModificarSocio(oPilotoSelec);
+                if (oVuelo.GetType() == typeof(Instruccion))
+                {
+                    Piloto oAlumnoSelec = (Piloto)cmbAlumno.SelectedItem;
+                    Curso oCursoSelec = (Curso)cmbCurso.SelectedItem;
+                    oCursoSelec.horasCumplidas += oVuelo.tiempo;
+                    oAlumnoSelec.horasVoladas += oVuelo.tiempo;
+                    cCursos.ModificarCurso(oCursoSelec);
+                    cSocios.ModificarSocio(oAlumnoSelec);
+                    
+                }
             }
             else if(ACCION == 'B')
             {
@@ -395,7 +424,19 @@ namespace VISTA
                 oPilotoSelec.horasVoladas-=oVuelo.tiempo;
                 cAeronaves.ModificarAeronave(oAeronaveSelec);
                 cSocios.ModificarSocio(oPilotoSelec);
-            }else if (ACCION == 'E')
+                if (oVuelo.GetType() == typeof(Instruccion))
+                {
+                    Piloto oAlumnoSelec = cSocios.ObtenerUNPiloto(((Instruccion)oVuelo).alumno.DNI);
+                    Curso oCursoSelec = cCursos.ObtenerUNCurso(((Instruccion)oVuelo).curso.nombre);
+                    oCursoSelec.horasCumplidas -= oVuelo.tiempo;
+                    oAlumnoSelec.horasVoladas -= oVuelo.tiempo;
+                    cCursos.ModificarCurso(oCursoSelec);
+                    cSocios.ModificarSocio(oAlumnoSelec);
+
+                }
+
+            }
+            else if (ACCION == 'E')
             {
                 Aeronave oAeronaveSelec = cAeronaves.ObtenerUNAAeronave(oVuelo.aeronave.matricula);
                 Piloto oPilotoSelec = cSocios.ObtenerUNPiloto(oVuelo.piloto.DNI);
@@ -403,11 +444,31 @@ namespace VISTA
                 {
                     oAeronaveSelec.taquimetro -= (origTime - oVuelo.tiempo);
                     oPilotoSelec.horasVoladas -= (origHoras - oVuelo.tiempo);
+                    if (oVuelo.GetType() == typeof(Instruccion))
+                    {
+                        Piloto oAlumnoSelec = cSocios.ObtenerUNPiloto(((Instruccion)oVuelo).alumno.DNI);
+                        Curso oCursoSelec = cCursos.ObtenerUNCurso(((Instruccion)oVuelo).curso.nombre);
+                        oCursoSelec.horasCumplidas -= (origTime - oVuelo.tiempo);
+                        oAlumnoSelec.horasVoladas -= (origHoras - oVuelo.tiempo);
+                        cCursos.ModificarCurso(oCursoSelec);
+                        cSocios.ModificarSocio(oAlumnoSelec);
+
+                    }
                 }
                 else if(oVuelo.tiempo > origTime||oVuelo.tiempo>origHoras)
                 {
                     oAeronaveSelec.taquimetro+=(oVuelo.tiempo - origTime);
                     oPilotoSelec.horasVoladas += (oVuelo.tiempo - origHoras);
+                    if (oVuelo.GetType() == typeof(Instruccion))
+                    {
+                        Piloto oAlumnoSelec = cSocios.ObtenerUNPiloto(((Instruccion)oVuelo).alumno.DNI);
+                        Curso oCursoSelec = cCursos.ObtenerUNCurso(((Instruccion)oVuelo).curso.nombre);
+                        oCursoSelec.horasCumplidas -= (origTime - oVuelo.tiempo);
+                        oAlumnoSelec.horasVoladas += (oVuelo.tiempo - origHoras);
+                        cCursos.ModificarCurso(oCursoSelec);
+                        cSocios.ModificarSocio(oAlumnoSelec);
+
+                    }
                 }
                 cAeronaves.ModificarAeronave(oAeronaveSelec);
                 cSocios.ModificarSocio(oPilotoSelec);
@@ -425,9 +486,16 @@ namespace VISTA
         private void cbInstruc_CheckedChanged(object sender, EventArgs e)
         {
             if (cbInstruc.Checked)
+            {
                 cmbAlumno.Enabled = true;
+                cmbCurso.Enabled = true;
+            }
             else
+            {
                 cmbAlumno.Enabled = false;
+                cmbCurso.Enabled = false;
+            }
+                
         }
     }
 }

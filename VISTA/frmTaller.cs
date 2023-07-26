@@ -114,6 +114,7 @@ namespace VISTA
             dtpInicio.Value = oMantenimiento.fechaInicio;
             dtpFin.Value = oMantenimiento.fechaFin;
             txtDetallesTrabajo.Text = oMantenimiento.trabajos;
+            txtTaqFuturo.Text=oMantenimiento.proximoMant.ToString();
 
             if (oMantenimiento.estado == "pendiente")
             {
