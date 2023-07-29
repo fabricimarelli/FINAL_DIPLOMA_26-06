@@ -14,5 +14,10 @@ namespace MODELO
         public bool admin { get; set; }
         public string password { get; set; }
         //public Socio socio { get; set; }
+
+        public override string ToString()
+        {
+            return nombreUsuario;
+        }
     }
 }

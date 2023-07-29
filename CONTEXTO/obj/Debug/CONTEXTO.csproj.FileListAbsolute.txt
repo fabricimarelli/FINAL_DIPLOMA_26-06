@@ -52,3 +52,4 @@ C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\bin\Debug\itextsharp.xml
 C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.Migrations.cursosVuelos.resources
 C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Auditoria.resources
 C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Audit2.resources
+C:\Users\fabri\Desktop\Pablo FINAL\CONTEXTO\obj\Debug\CONTEXTO.Migrations.permisos.resources

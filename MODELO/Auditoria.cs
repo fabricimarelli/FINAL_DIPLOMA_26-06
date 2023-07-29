@@ -9,7 +9,7 @@ namespace MODELO
     public class Auditoria
     {
         public int ID_audit { get; set; }
-        public string usuario { get; set; }
+        public Usuario usuario { get; set; }
         public string tipoOperacion { get;set; }
         public DateTime fechaHora { get; set; }
     }

@@ -105,6 +105,10 @@
     <Compile Include="Migrations\202307292002577_Audit2.designer.cs">
       <DependentUpon>202307292002577_Audit2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202307292128323_permisos.cs" />
+    <Compile Include="Migrations\202307292128323_permisos.designer.cs">
+      <DependentUpon>202307292128323_permisos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -142,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202307292002577_Audit2.resx">
       <DependentUpon>202307292002577_Audit2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307292128323_permisos.resx">
+      <DependentUpon>202307292128323_permisos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

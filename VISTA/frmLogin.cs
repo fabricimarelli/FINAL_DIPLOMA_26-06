@@ -18,10 +18,14 @@ namespace VISTA
     {
         private Auditorias cAuditorias;
         private Auditoria oAuditoria;
+        private Usuarios cUsuarios;
+        private Usuario oUsuario;
+
         public frmLogin()
         {
             InitializeComponent();
             cAuditorias=Auditorias.ObtenerInstancia();
+            cUsuarios=Usuarios.ObtenerInstancia();
         }
 
         //para mover el formulario login
@@ -101,8 +105,10 @@ namespace VISTA
                                   select d;
                         if(lst.Count() > 0)
                         {
+                            List<Usuario> usuarioList = cUsuarios.ObtenerUsuarios();
+                            oUsuario=usuarioList.FirstOrDefault(usuario => usuario.nombreUsuario == txtUser.Text);
                             oAuditoria = new Auditoria();
-                            oAuditoria.usuario = txtUser.Text;
+                            oAuditoria.usuario = oUsuario;
                             oAuditoria.tipoOperacion = "Login";
                             oAuditoria.fechaHora=DateTime.Now;
                             cAuditorias.AgregarAuditoria(oAuditoria);

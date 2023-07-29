@@ -32,8 +32,9 @@ namespace VISTA
         public frmMenuPrincipal()
         {
             InitializeComponent();
+            cAuditorias = Auditorias.ObtenerInstancia();
+            PERMISO_USUARIO();
             abrirFromHijo(new frmSocios());
-            cAuditorias=Auditorias.ObtenerInstancia();
         }
 
 
@@ -53,6 +54,19 @@ namespace VISTA
             oAuditoria.tipoOperacion = "Logout";
             oAuditoria.fechaHora = DateTime.Now;
             cAuditorias.AgregarAuditoria(oAuditoria);
+        }
+
+        private void PERMISO_USUARIO()
+        {
+            List<Auditoria> auditoriaList = cAuditorias.ObtenerAuditorias();
+            oAuditoria = new Auditoria();
+            oUserActual = new Auditoria();
+            oUserActual = auditoriaList[auditoriaList.Count - 1];//traigo el ultimo
+
+            if (oUserActual.usuario.admin == false)
+            {
+                btnUsurios.Visible = false;
+            }
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
