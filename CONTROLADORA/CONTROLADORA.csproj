@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aeronaves.cs" />
+    <Compile Include="Auditorias.cs" />
     <Compile Include="Cursos.cs" />
     <Compile Include="Mantenimientos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

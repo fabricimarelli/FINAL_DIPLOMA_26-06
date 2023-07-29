@@ -24,6 +24,7 @@ namespace VISTA
             return instancia;
         }
 
+        private Auditorias cAuditorias;
         private Usuarios cUsuarios;
         private Usuario oUsuario;
         char ACCION;
@@ -32,8 +33,10 @@ namespace VISTA
         {
             InitializeComponent();
             cUsuarios = Usuarios.ObtenerInstancia();
+            cAuditorias = Auditorias.ObtenerInstancia();
             MODO_GRILLA();
             ARMA_GRILLA();
+            ARMA_GRILLA_AUDITORIA();
         }
 
         private void ARMA_GRILLA()
@@ -124,6 +127,20 @@ namespace VISTA
         {
             dgvUsuarios.DataSource = null;
             dgvUsuarios.DataSource = cUsuarios.ObtenerUsuariomatricula(cmbUsuarios.SelectedItem != null ? ((MODELO.Usuario)cmbUsuarios.SelectedItem).nombreUsuario : "0");
+        }
+
+        private void ARMA_GRILLA_AUDITORIA()
+        {
+            List<Auditoria> auditoriaList = cAuditorias.ObtenerAuditorias();
+            auditoriaList = auditoriaList.OrderByDescending(auditoria => auditoria.fechaHora).ToList();
+            dgvAudit.DataSource = null;
+            dgvAudit.DataSource = auditoriaList;
+            dgvAudit.Columns[0].HeaderText = "ID";
+            dgvAudit.Columns[1].HeaderText = "Username";
+            dgvAudit.Columns[2].HeaderText = "Operación";
+            dgvAudit.Columns[3].HeaderText = "Fecha y hora";
+            dgvAudit.AutoResizeColumn(0);
+            dgvAudit.AutoResizeColumn(2);
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

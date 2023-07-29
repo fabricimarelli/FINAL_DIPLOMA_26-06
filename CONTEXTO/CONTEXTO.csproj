@@ -97,6 +97,14 @@
     <Compile Include="Migrations\202307180232209_cursosVuelos.designer.cs">
       <DependentUpon>202307180232209_cursosVuelos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202307291943544_Auditoria.cs" />
+    <Compile Include="Migrations\202307291943544_Auditoria.designer.cs">
+      <DependentUpon>202307291943544_Auditoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307292002577_Audit2.cs" />
+    <Compile Include="Migrations\202307292002577_Audit2.designer.cs">
+      <DependentUpon>202307292002577_Audit2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -128,6 +136,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202307180232209_cursosVuelos.resx">
       <DependentUpon>202307180232209_cursosVuelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307291943544_Auditoria.resx">
+      <DependentUpon>202307291943544_Auditoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307292002577_Audit2.resx">
+      <DependentUpon>202307292002577_Audit2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

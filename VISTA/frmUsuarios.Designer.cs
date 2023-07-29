@@ -28,11 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUsuarios));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUsuarios));
             this.gbDatosUsuario = new System.Windows.Forms.GroupBox();
+            this.txtContraseñaVerif = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.gbTipoUsuario = new System.Windows.Forms.GroupBox();
@@ -47,6 +52,7 @@
             this.txtNombreUsuario = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.gbListaUsuarios = new System.Windows.Forms.GroupBox();
+            this.btnReload = new System.Windows.Forms.Button();
             this.cmbUsuarios = new System.Windows.Forms.ComboBox();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
@@ -54,13 +60,14 @@
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
-            this.txtContraseñaVerif = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnReload = new System.Windows.Forms.Button();
+            this.gbAudit = new System.Windows.Forms.GroupBox();
+            this.dgvAudit = new System.Windows.Forms.DataGridView();
             this.gbDatosUsuario.SuspendLayout();
             this.gbTipoUsuario.SuspendLayout();
             this.gbListaUsuarios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
+            this.gbAudit.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAudit)).BeginInit();
             this.SuspendLayout();
             // 
             // gbDatosUsuario
@@ -86,6 +93,26 @@
             this.gbDatosUsuario.TabIndex = 1;
             this.gbDatosUsuario.TabStop = false;
             this.gbDatosUsuario.Text = "Datos usuario";
+            // 
+            // txtContraseñaVerif
+            // 
+            this.txtContraseñaVerif.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.txtContraseñaVerif.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseñaVerif.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtContraseñaVerif.Location = new System.Drawing.Point(118, 325);
+            this.txtContraseñaVerif.Name = "txtContraseñaVerif";
+            this.txtContraseñaVerif.Size = new System.Drawing.Size(409, 32);
+            this.txtContraseñaVerif.TabIndex = 27;
+            this.txtContraseñaVerif.UseSystemPasswordChar = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(114, 299);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(216, 23);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "Confirme contraseña";
             // 
             // btnCancelar
             // 
@@ -246,10 +273,26 @@
             this.gbListaUsuarios.ForeColor = System.Drawing.Color.White;
             this.gbListaUsuarios.Location = new System.Drawing.Point(38, 29);
             this.gbListaUsuarios.Name = "gbListaUsuarios";
-            this.gbListaUsuarios.Size = new System.Drawing.Size(826, 756);
+            this.gbListaUsuarios.Size = new System.Drawing.Size(826, 383);
             this.gbListaUsuarios.TabIndex = 2;
             this.gbListaUsuarios.TabStop = false;
             this.gbListaUsuarios.Text = "Listado de usuarios";
+            // 
+            // btnReload
+            // 
+            this.btnReload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnReload.FlatAppearance.BorderSize = 0;
+            this.btnReload.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnReload.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
+            this.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReload.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReload.Image = ((System.Drawing.Image)(resources.GetObject("btnReload.Image")));
+            this.btnReload.Location = new System.Drawing.Point(48, 29);
+            this.btnReload.Name = "btnReload";
+            this.btnReload.Size = new System.Drawing.Size(43, 40);
+            this.btnReload.TabIndex = 29;
+            this.btnReload.UseVisualStyleBackColor = false;
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // cmbUsuarios
             // 
@@ -270,7 +313,7 @@
             this.btnConsultar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsultar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Location = new System.Drawing.Point(349, 689);
+            this.btnConsultar.Location = new System.Drawing.Point(349, 317);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(157, 40);
             this.btnConsultar.TabIndex = 5;
@@ -302,7 +345,7 @@
             this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(647, 689);
+            this.btnEliminar.Location = new System.Drawing.Point(647, 317);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(157, 40);
             this.btnEliminar.TabIndex = 6;
@@ -318,7 +361,7 @@
             this.btnEditar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.Location = new System.Drawing.Point(186, 689);
+            this.btnEditar.Location = new System.Drawing.Point(186, 317);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(157, 40);
             this.btnEditar.TabIndex = 4;
@@ -334,7 +377,7 @@
             this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(23, 689);
+            this.btnAgregar.Location = new System.Drawing.Point(23, 317);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(157, 40);
             this.btnAgregar.TabIndex = 3;
@@ -349,6 +392,59 @@
             this.dgvUsuarios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.dgvUsuarios.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvUsuarios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvUsuarios.ColumnHeadersHeight = 30;
+            this.dgvUsuarios.EnableHeadersVisualStyles = false;
+            this.dgvUsuarios.GridColor = System.Drawing.SystemColors.HotTrack;
+            this.dgvUsuarios.Location = new System.Drawing.Point(23, 77);
+            this.dgvUsuarios.Name = "dgvUsuarios";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUsuarios.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvUsuarios.RowHeadersVisible = false;
+            this.dgvUsuarios.RowHeadersWidth = 51;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvUsuarios.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvUsuarios.RowTemplate.Height = 24;
+            this.dgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvUsuarios.Size = new System.Drawing.Size(781, 216);
+            this.dgvUsuarios.TabIndex = 0;
+            // 
+            // gbAudit
+            // 
+            this.gbAudit.Controls.Add(this.dgvAudit);
+            this.gbAudit.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbAudit.ForeColor = System.Drawing.Color.White;
+            this.gbAudit.Location = new System.Drawing.Point(38, 420);
+            this.gbAudit.Name = "gbAudit";
+            this.gbAudit.Size = new System.Drawing.Size(826, 365);
+            this.gbAudit.TabIndex = 30;
+            this.gbAudit.TabStop = false;
+            this.gbAudit.Text = "Auditoria";
+            // 
+            // dgvAudit
+            // 
+            this.dgvAudit.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvAudit.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvAudit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.dgvAudit.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvAudit.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.HotTrack;
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -356,12 +452,12 @@
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.dgvUsuarios.ColumnHeadersHeight = 30;
-            this.dgvUsuarios.EnableHeadersVisualStyles = false;
-            this.dgvUsuarios.GridColor = System.Drawing.SystemColors.HotTrack;
-            this.dgvUsuarios.Location = new System.Drawing.Point(23, 77);
-            this.dgvUsuarios.Name = "dgvUsuarios";
+            this.dgvAudit.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvAudit.ColumnHeadersHeight = 30;
+            this.dgvAudit.EnableHeadersVisualStyles = false;
+            this.dgvAudit.GridColor = System.Drawing.SystemColors.HotTrack;
+            this.dgvAudit.Location = new System.Drawing.Point(23, 43);
+            this.dgvAudit.Name = "dgvAudit";
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -369,55 +465,19 @@
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvUsuarios.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dgvUsuarios.RowHeadersVisible = false;
-            this.dgvUsuarios.RowHeadersWidth = 51;
+            this.dgvAudit.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dgvAudit.RowHeadersVisible = false;
+            this.dgvAudit.RowHeadersWidth = 51;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Navy;
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvUsuarios.RowsDefaultCellStyle = dataGridViewCellStyle6;
-            this.dgvUsuarios.RowTemplate.Height = 24;
-            this.dgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvUsuarios.Size = new System.Drawing.Size(781, 578);
-            this.dgvUsuarios.TabIndex = 0;
-            // 
-            // txtContraseñaVerif
-            // 
-            this.txtContraseñaVerif.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.txtContraseñaVerif.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseñaVerif.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtContraseñaVerif.Location = new System.Drawing.Point(118, 325);
-            this.txtContraseñaVerif.Name = "txtContraseñaVerif";
-            this.txtContraseñaVerif.Size = new System.Drawing.Size(409, 32);
-            this.txtContraseñaVerif.TabIndex = 27;
-            this.txtContraseñaVerif.UseSystemPasswordChar = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(114, 299);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 23);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "Confirme contraseña";
-            // 
-            // btnReload
-            // 
-            this.btnReload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnReload.FlatAppearance.BorderSize = 0;
-            this.btnReload.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnReload.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
-            this.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReload.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReload.Image = ((System.Drawing.Image)(resources.GetObject("btnReload.Image")));
-            this.btnReload.Location = new System.Drawing.Point(48, 29);
-            this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(43, 40);
-            this.btnReload.TabIndex = 29;
-            this.btnReload.UseVisualStyleBackColor = false;
-            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
+            this.dgvAudit.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.dgvAudit.RowTemplate.Height = 24;
+            this.dgvAudit.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvAudit.Size = new System.Drawing.Size(781, 294);
+            this.dgvAudit.TabIndex = 0;
             // 
             // frmUsuarios
             // 
@@ -425,6 +485,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1580, 815);
+            this.Controls.Add(this.gbAudit);
             this.Controls.Add(this.gbDatosUsuario);
             this.Controls.Add(this.gbListaUsuarios);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -436,6 +497,8 @@
             this.gbTipoUsuario.PerformLayout();
             this.gbListaUsuarios.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
+            this.gbAudit.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAudit)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -467,5 +530,7 @@
         private System.Windows.Forms.TextBox txtContraseñaVerif;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnReload;
+        private System.Windows.Forms.GroupBox gbAudit;
+        private System.Windows.Forms.DataGridView dgvAudit;
     }
 }

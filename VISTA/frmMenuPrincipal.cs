@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-
+using CONTROLADORA;
+using MODELO;
 
 namespace VISTA
 {
@@ -24,10 +25,15 @@ namespace VISTA
             return instancia;
         }
 
+        private Auditorias cAuditorias;
+        private Auditoria oAuditoria;
+        private Auditoria oUserActual;
+
         public frmMenuPrincipal()
         {
             InitializeComponent();
             abrirFromHijo(new frmSocios());
+            cAuditorias=Auditorias.ObtenerInstancia();
         }
 
 
@@ -37,8 +43,21 @@ namespace VISTA
         [DllImport("user32.dll", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
+        private void LOGOUT_AUDITORIA()
+        {
+            List<Auditoria> auditoriaList=cAuditorias.ObtenerAuditorias();
+            oAuditoria=new Auditoria();
+            oUserActual = new Auditoria();
+            oUserActual = auditoriaList[auditoriaList.Count-1];//traigo el ultimo
+            oAuditoria.usuario = oUserActual.usuario;
+            oAuditoria.tipoOperacion = "Logout";
+            oAuditoria.fechaHora = DateTime.Now;
+            cAuditorias.AgregarAuditoria(oAuditoria);
+        }
+
         private void btnCerrar_Click(object sender, EventArgs e)
         {
+            LOGOUT_AUDITORIA();
             Application.Exit();
         }
 
@@ -63,6 +82,7 @@ namespace VISTA
 
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
+            LOGOUT_AUDITORIA();
             this.Close();
             frmLogin login=new frmLogin();
             login.Show();

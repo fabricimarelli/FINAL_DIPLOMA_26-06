@@ -39,6 +39,7 @@ namespace CONTEXTO
         public virtual DbSet<MODELO.Vuelo> Vuelos { get; set; }
         public virtual DbSet<MODELO.Reserva> Reservas { get; set; }
         public virtual DbSet<MODELO.Curso> Cursos { get; set; }
+        public virtual DbSet<MODELO.Auditoria>Auditorias { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -58,6 +59,8 @@ namespace CONTEXTO
                .HasKey(_ => _.ID_reserva);
             modelBuilder.Entity<MODELO.Curso>()
                .HasKey(_ => _.ID_curso);
+            modelBuilder.Entity<MODELO.Auditoria>()
+                .HasKey(_ => _.ID_audit);
         }
     }
 

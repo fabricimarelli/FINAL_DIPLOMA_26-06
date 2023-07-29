@@ -8,15 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MODELO;
+using CONTROLADORA;
 
 
 namespace VISTA
 {
     public partial class frmLogin : Form
     {
+        private Auditorias cAuditorias;
+        private Auditoria oAuditoria;
         public frmLogin()
         {
             InitializeComponent();
+            cAuditorias=Auditorias.ObtenerInstancia();
         }
 
         //para mover el formulario login
@@ -96,7 +101,12 @@ namespace VISTA
                                   select d;
                         if(lst.Count() > 0)
                         {
-                            
+                            oAuditoria = new Auditoria();
+                            oAuditoria.usuario = txtUser.Text;
+                            oAuditoria.tipoOperacion = "Login";
+                            oAuditoria.fechaHora=DateTime.Now;
+                            cAuditorias.AgregarAuditoria(oAuditoria);
+
                             frmMenuPrincipal menuPrincipal = frmMenuPrincipal.ObtenerInstancia();
                             menuPrincipal.Show();
                             this.Hide();

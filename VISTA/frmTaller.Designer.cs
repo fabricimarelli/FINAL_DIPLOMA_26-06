@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTaller));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gbDatosMant = new System.Windows.Forms.GroupBox();
             this.gbProximo = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -65,10 +65,9 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.dgvReparaciones = new System.Windows.Forms.DataGridView();
             this.gbMantFut = new System.Windows.Forms.GroupBox();
-            this.refreshFut = new System.Windows.Forms.Button();
-            this.cmbAvionesFut = new System.Windows.Forms.ComboBox();
-            this.btnBuscarFut = new System.Windows.Forms.Button();
             this.dgvReparacionesFuturas = new System.Windows.Forms.DataGridView();
+            this.btnTodas = new System.Windows.Forms.Button();
+            this.btnUrgentes = new System.Windows.Forms.Button();
             this.gbDatosMant.SuspendLayout();
             this.gbProximo.SuspendLayout();
             this.gbEstado.SuspendLayout();
@@ -98,7 +97,7 @@
             this.gbDatosMant.ForeColor = System.Drawing.Color.White;
             this.gbDatosMant.Location = new System.Drawing.Point(905, 29);
             this.gbDatosMant.Name = "gbDatosMant";
-            this.gbDatosMant.Size = new System.Drawing.Size(626, 756);
+            this.gbDatosMant.Size = new System.Drawing.Size(626, 774);
             this.gbDatosMant.TabIndex = 12;
             this.gbDatosMant.TabStop = false;
             this.gbDatosMant.Text = "Datos mantenimiento";
@@ -122,9 +121,9 @@
             this.label3.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.label3.Location = new System.Drawing.Point(177, 38);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(169, 21);
+            this.label3.Size = new System.Drawing.Size(99, 26);
             this.label3.TabIndex = 43;
-            this.label3.Text = "Taquimetro (futuro)";
+            this.label3.Text = "En horas";
             // 
             // txtTaqFuturo
             // 
@@ -452,35 +451,35 @@
             this.dgvReparaciones.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.dgvReparaciones.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvReparaciones.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvReparaciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvReparaciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dgvReparaciones.ColumnHeadersHeight = 30;
             this.dgvReparaciones.EnableHeadersVisualStyles = false;
             this.dgvReparaciones.GridColor = System.Drawing.SystemColors.HotTrack;
             this.dgvReparaciones.Location = new System.Drawing.Point(23, 77);
             this.dgvReparaciones.Name = "dgvReparaciones";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvReparaciones.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvReparaciones.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvReparaciones.RowHeadersVisible = false;
             this.dgvReparaciones.RowHeadersWidth = 51;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvReparaciones.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvReparaciones.RowsDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvReparaciones.RowTemplate.Height = 24;
             this.dgvReparaciones.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvReparaciones.Size = new System.Drawing.Size(781, 324);
@@ -488,60 +487,17 @@
             // 
             // gbMantFut
             // 
-            this.gbMantFut.Controls.Add(this.refreshFut);
-            this.gbMantFut.Controls.Add(this.cmbAvionesFut);
-            this.gbMantFut.Controls.Add(this.btnBuscarFut);
+            this.gbMantFut.Controls.Add(this.btnUrgentes);
+            this.gbMantFut.Controls.Add(this.btnTodas);
             this.gbMantFut.Controls.Add(this.dgvReparacionesFuturas);
             this.gbMantFut.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbMantFut.ForeColor = System.Drawing.Color.White;
             this.gbMantFut.Location = new System.Drawing.Point(50, 500);
             this.gbMantFut.Name = "gbMantFut";
-            this.gbMantFut.Size = new System.Drawing.Size(826, 285);
+            this.gbMantFut.Size = new System.Drawing.Size(826, 303);
             this.gbMantFut.TabIndex = 12;
             this.gbMantFut.TabStop = false;
             this.gbMantFut.Text = "Mantenimientos futuros";
-            // 
-            // refreshFut
-            // 
-            this.refreshFut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.refreshFut.FlatAppearance.BorderSize = 0;
-            this.refreshFut.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.refreshFut.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
-            this.refreshFut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.refreshFut.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.refreshFut.Image = ((System.Drawing.Image)(resources.GetObject("refreshFut.Image")));
-            this.refreshFut.Location = new System.Drawing.Point(54, 31);
-            this.refreshFut.Name = "refreshFut";
-            this.refreshFut.Size = new System.Drawing.Size(43, 40);
-            this.refreshFut.TabIndex = 10;
-            this.refreshFut.UseVisualStyleBackColor = false;
-            // 
-            // cmbAvionesFut
-            // 
-            this.cmbAvionesFut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.cmbAvionesFut.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbAvionesFut.ForeColor = System.Drawing.Color.White;
-            this.cmbAvionesFut.FormattingEnabled = true;
-            this.cmbAvionesFut.Location = new System.Drawing.Point(169, 38);
-            this.cmbAvionesFut.Name = "cmbAvionesFut";
-            this.cmbAvionesFut.Size = new System.Drawing.Size(429, 29);
-            this.cmbAvionesFut.TabIndex = 9;
-            // 
-            // btnBuscarFut
-            // 
-            this.btnBuscarFut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnBuscarFut.FlatAppearance.BorderSize = 0;
-            this.btnBuscarFut.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnBuscarFut.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
-            this.btnBuscarFut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscarFut.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarFut.Location = new System.Drawing.Point(621, 31);
-            this.btnBuscarFut.Name = "btnBuscarFut";
-            this.btnBuscarFut.Size = new System.Drawing.Size(157, 40);
-            this.btnBuscarFut.TabIndex = 2;
-            this.btnBuscarFut.Text = "Buscar";
-            this.btnBuscarFut.UseVisualStyleBackColor = false;
-            this.btnBuscarFut.Click += new System.EventHandler(this.btnBuscarFut_Click);
             // 
             // dgvReparacionesFuturas
             // 
@@ -550,39 +506,71 @@
             this.dgvReparacionesFuturas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.dgvReparacionesFuturas.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvReparacionesFuturas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvReparacionesFuturas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvReparacionesFuturas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dgvReparacionesFuturas.ColumnHeadersHeight = 30;
             this.dgvReparacionesFuturas.EnableHeadersVisualStyles = false;
             this.dgvReparacionesFuturas.GridColor = System.Drawing.SystemColors.HotTrack;
-            this.dgvReparacionesFuturas.Location = new System.Drawing.Point(23, 93);
+            this.dgvReparacionesFuturas.Location = new System.Drawing.Point(23, 31);
             this.dgvReparacionesFuturas.Name = "dgvReparacionesFuturas";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvReparacionesFuturas.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvReparacionesFuturas.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dgvReparacionesFuturas.RowHeadersVisible = false;
             this.dgvReparacionesFuturas.RowHeadersWidth = 51;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvReparacionesFuturas.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvReparacionesFuturas.RowsDefaultCellStyle = dataGridViewCellStyle12;
             this.dgvReparacionesFuturas.RowTemplate.Height = 24;
             this.dgvReparacionesFuturas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvReparacionesFuturas.Size = new System.Drawing.Size(781, 161);
+            this.dgvReparacionesFuturas.Size = new System.Drawing.Size(781, 190);
             this.dgvReparacionesFuturas.TabIndex = 0;
+            // 
+            // btnTodas
+            // 
+            this.btnTodas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnTodas.FlatAppearance.BorderSize = 0;
+            this.btnTodas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnTodas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
+            this.btnTodas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTodas.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTodas.Location = new System.Drawing.Point(185, 239);
+            this.btnTodas.Name = "btnTodas";
+            this.btnTodas.Size = new System.Drawing.Size(157, 40);
+            this.btnTodas.TabIndex = 11;
+            this.btnTodas.Text = "Todos";
+            this.btnTodas.UseVisualStyleBackColor = false;
+            this.btnTodas.Click += new System.EventHandler(this.btnTodas_Click);
+            // 
+            // btnUrgentes
+            // 
+            this.btnUrgentes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnUrgentes.FlatAppearance.BorderSize = 0;
+            this.btnUrgentes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnUrgentes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
+            this.btnUrgentes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUrgentes.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUrgentes.Location = new System.Drawing.Point(23, 239);
+            this.btnUrgentes.Name = "btnUrgentes";
+            this.btnUrgentes.Size = new System.Drawing.Size(157, 40);
+            this.btnUrgentes.TabIndex = 12;
+            this.btnUrgentes.Text = "Urgentes";
+            this.btnUrgentes.UseVisualStyleBackColor = false;
+            this.btnUrgentes.Click += new System.EventHandler(this.btnUrgentes_Click);
             // 
             // frmTaller
             // 
@@ -627,9 +615,6 @@
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.DataGridView dgvReparaciones;
         private System.Windows.Forms.GroupBox gbMantFut;
-        private System.Windows.Forms.Button refreshFut;
-        private System.Windows.Forms.ComboBox cmbAvionesFut;
-        private System.Windows.Forms.Button btnBuscarFut;
         private System.Windows.Forms.DataGridView dgvReparacionesFuturas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbAeronave;
@@ -646,5 +631,7 @@
         private System.Windows.Forms.TextBox txtTaqFuturo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox gbProximo;
+        private System.Windows.Forms.Button btnUrgentes;
+        private System.Windows.Forms.Button btnTodas;
     }
 }

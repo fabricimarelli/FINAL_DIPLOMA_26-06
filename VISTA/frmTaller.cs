@@ -37,8 +37,8 @@ namespace VISTA
             cAeronaves = Aeronaves.ObtenerInstancia();
             MODO_GRILLA();
             ARMA_GRILLA_MATRICULA();
-            COMBO_AERONAVES_FUT();
             ARMA_GRILLA_MATRICULA_FUT();
+            ARMA_GRILLA_MATRICULA_Vencimiento();
 
         }
 
@@ -162,18 +162,7 @@ namespace VISTA
 
         }
 
-        private void COMBO_AERONAVES_FUT()
-        {
-
-            cmbAvionesFut.Items.Clear();
-
-            //le pido la lista y la asigno como arreglo
-            cmbAvionesFut.Items.AddRange(cMantenimientos.OBTENER_AERONAVE().ToArray());
-            cmbAvionesFut.Items.Insert(0, new MODELO.Aeronave { matricula = "LV-..." });
-            cmbAvionesFut.DisplayMember = "matricula";
-            cmbAvionesFut.ValueMember = "matricula";
-
-        }
+        
 
         private void ARMA_GRILLA_MATRICULA()//Obtiene mantenimientos por grilla
         {
@@ -205,6 +194,23 @@ namespace VISTA
             dgvReparacionesFuturas.Columns[3].HeaderText = "Taquimetro";
             dgvReparacionesFuturas.Columns[4].HeaderText = "Taquimetro futuro";
             dgvReparacionesFuturas.Columns[5].Visible=false;
+            dgvReparacionesFuturas.Columns[6].HeaderText = "En servicio";
+            dgvReparacionesFuturas.ReadOnly = true;
+
+        }
+
+        private void ARMA_GRILLA_MATRICULA_Vencimiento()
+        {
+            List<Aeronave> listaAeronaves = cAeronaves.ObtenerAeronaves();
+            List<Aeronave> listaAeronavesProx = listaAeronaves.Where(avion => avion.taquimetroFuturo - avion.taquimetro <= 10).ToList();
+            dgvReparacionesFuturas.DataSource = null;
+            dgvReparacionesFuturas.DataSource = listaAeronavesProx;
+            dgvReparacionesFuturas.Columns[0].Visible = false;
+            dgvReparacionesFuturas.Columns[1].HeaderText = "Matricula";
+            dgvReparacionesFuturas.Columns[2].Visible = false;
+            dgvReparacionesFuturas.Columns[3].HeaderText = "Taquimetro";
+            dgvReparacionesFuturas.Columns[4].HeaderText = "Taquimetro futuro";
+            dgvReparacionesFuturas.Columns[5].Visible = false;
             dgvReparacionesFuturas.Columns[6].HeaderText = "En servicio";
             dgvReparacionesFuturas.ReadOnly = true;
 
@@ -377,7 +383,12 @@ namespace VISTA
 
         }
 
-        private void btnBuscarFut_Click(object sender, EventArgs e)
+        private void btnUrgentes_Click(object sender, EventArgs e)
+        {
+            ARMA_GRILLA_MATRICULA_Vencimiento();
+        }
+
+        private void btnTodas_Click(object sender, EventArgs e)
         {
             ARMA_GRILLA_MATRICULA_FUT();
         }
