@@ -30,9 +30,11 @@ namespace VISTA
         private Aeronaves cAeronaves;
         private Socios cSocios;
         private Reservas cReservas;
+        private Auditorias cAuditorias;
         private ReporteVueloPDF ReportePDF;
         private ReporteVueloEXCEL ReporteEXCEL;
         private ReporteCruzadoPDF ReporteCruzadoPDF;
+        private ReporteAuditPDF ReporteAuditPDF;
 
         public frmReportes()
         {
@@ -41,13 +43,16 @@ namespace VISTA
             cAeronaves = Aeronaves.ObtenerInstancia();
             cSocios = Socios.ObtenerInstancia();
             cReservas = Reservas.ObtenerInstancia();
+            cAuditorias = Auditorias.ObtenerInstancia();
             ReportePDF=new ReporteVueloPDF();
             ReporteEXCEL=new ReporteVueloEXCEL();
             ReporteCruzadoPDF=new ReporteCruzadoPDF();
+            ReporteAuditPDF=new ReporteAuditPDF();
             GenerarGraficoBarras();
             GeneraGraficoTortaVuelos(DateTime.Now.AddMonths(-1),DateTime.Now);
             GeneraGraficoDonaReservas(DateTime.Now.AddMonths(-1), DateTime.Now);
             gbFiltrosVuelosReserv.Enabled = false;
+            rbReservas.Checked = true;
         }
 
 
@@ -201,11 +206,16 @@ namespace VISTA
                 List<Reserva> reservas = cReservas.ObtenerReservas();
                 ReporteCruzadoPDF.GenerarReporte(vuelos,reservas);
             }
+            if(rbAuditoria.Checked == true)
+            {
+                List<Auditoria>list=cAuditorias.ObtenerAuditorias();
+                ReporteAuditPDF.GenerarReporte(list);
+            }
         }
 
         private void rbReservas_CheckedChanged(object sender, EventArgs e)
         {
-            if (rbReservas.Checked == true)
+            if (rbReservas.Checked == true||rbAuditoria.Checked==true)
             {
                 btnReportExcel.Enabled = false;
             }

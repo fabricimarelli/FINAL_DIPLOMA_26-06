@@ -12,5 +12,12 @@ namespace MODELO
         public Usuario usuario { get; set; }
         public string tipoOperacion { get;set; }
         public DateTime fechaHora { get; set; }
+
+        public override string ToString()
+        {
+            return usuario.ToString();
+        }
     }
+
+   
 }

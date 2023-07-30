@@ -41,6 +41,8 @@
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.gbGenReportes = new System.Windows.Forms.GroupBox();
+            this.rbReservas = new System.Windows.Forms.RadioButton();
+            this.rbVuelos = new System.Windows.Forms.RadioButton();
             this.btnTempalte = new System.Windows.Forms.Button();
             this.gbFiltrosVuelosReserv = new System.Windows.Forms.GroupBox();
             this.cmbAeronaveVuelos = new System.Windows.Forms.ComboBox();
@@ -48,18 +50,17 @@
             this.rbAeronaveVuelos = new System.Windows.Forms.RadioButton();
             this.txtDNI = new System.Windows.Forms.TextBox();
             this.cbAplicaFiltros = new System.Windows.Forms.CheckBox();
-            this.rbVuelos = new System.Windows.Forms.RadioButton();
-            this.rbReservas = new System.Windows.Forms.RadioButton();
             this.btnReportExcel = new System.Windows.Forms.Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.gbFiltrosGraficos = new System.Windows.Forms.GroupBox();
-            this.btnFiltrosGraf = new System.Windows.Forms.Button();
-            this.dtpInicio = new System.Windows.Forms.DateTimePicker();
-            this.dtpFin = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dtpFin = new System.Windows.Forms.DateTimePicker();
+            this.dtpInicio = new System.Windows.Forms.DateTimePicker();
+            this.btnFiltrosGraf = new System.Windows.Forms.Button();
+            this.rbAuditoria = new System.Windows.Forms.RadioButton();
             this.gbGenReportes.SuspendLayout();
             this.gbFiltrosVuelosReserv.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -70,6 +71,7 @@
             // 
             // gbGenReportes
             // 
+            this.gbGenReportes.Controls.Add(this.rbAuditoria);
             this.gbGenReportes.Controls.Add(this.rbReservas);
             this.gbGenReportes.Controls.Add(this.rbVuelos);
             this.gbGenReportes.Controls.Add(this.btnTempalte);
@@ -84,6 +86,29 @@
             this.gbGenReportes.TabIndex = 47;
             this.gbGenReportes.TabStop = false;
             this.gbGenReportes.Text = "Generador de reportes";
+            // 
+            // rbReservas
+            // 
+            this.rbReservas.AutoSize = true;
+            this.rbReservas.Location = new System.Drawing.Point(156, 57);
+            this.rbReservas.Name = "rbReservas";
+            this.rbReservas.Size = new System.Drawing.Size(105, 25);
+            this.rbReservas.TabIndex = 20;
+            this.rbReservas.TabStop = true;
+            this.rbReservas.Text = "Reservas";
+            this.rbReservas.UseVisualStyleBackColor = true;
+            this.rbReservas.CheckedChanged += new System.EventHandler(this.rbReservas_CheckedChanged);
+            // 
+            // rbVuelos
+            // 
+            this.rbVuelos.AutoSize = true;
+            this.rbVuelos.Location = new System.Drawing.Point(31, 57);
+            this.rbVuelos.Name = "rbVuelos";
+            this.rbVuelos.Size = new System.Drawing.Size(86, 25);
+            this.rbVuelos.TabIndex = 18;
+            this.rbVuelos.TabStop = true;
+            this.rbVuelos.Text = "Vuelos";
+            this.rbVuelos.UseVisualStyleBackColor = true;
             // 
             // btnTempalte
             // 
@@ -170,29 +195,6 @@
             this.cbAplicaFiltros.Text = "Aplicar filtros";
             this.cbAplicaFiltros.UseVisualStyleBackColor = true;
             this.cbAplicaFiltros.CheckedChanged += new System.EventHandler(this.cbAplicaFiltros_CheckedChanged);
-            // 
-            // rbVuelos
-            // 
-            this.rbVuelos.AutoSize = true;
-            this.rbVuelos.Location = new System.Drawing.Point(105, 57);
-            this.rbVuelos.Name = "rbVuelos";
-            this.rbVuelos.Size = new System.Drawing.Size(86, 25);
-            this.rbVuelos.TabIndex = 18;
-            this.rbVuelos.TabStop = true;
-            this.rbVuelos.Text = "Vuelos";
-            this.rbVuelos.UseVisualStyleBackColor = true;
-            // 
-            // rbReservas
-            // 
-            this.rbReservas.AutoSize = true;
-            this.rbReservas.Location = new System.Drawing.Point(255, 57);
-            this.rbReservas.Name = "rbReservas";
-            this.rbReservas.Size = new System.Drawing.Size(105, 25);
-            this.rbReservas.TabIndex = 20;
-            this.rbReservas.TabStop = true;
-            this.rbReservas.Text = "Reservas";
-            this.rbReservas.UseVisualStyleBackColor = true;
-            this.rbReservas.CheckedChanged += new System.EventHandler(this.rbReservas_CheckedChanged);
             // 
             // btnReportExcel
             // 
@@ -305,6 +307,44 @@
             this.gbFiltrosGraficos.TabStop = false;
             this.gbFiltrosGraficos.Text = "Filtros Gráficos";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(152, 135);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 21);
+            this.label1.TabIndex = 44;
+            this.label1.Text = "Fecha fin";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(152, 62);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(108, 21);
+            this.label5.TabIndex = 43;
+            this.label5.Text = "Fecha inicio";
+            // 
+            // dtpFin
+            // 
+            this.dtpFin.CustomFormat = "HH:mm";
+            this.dtpFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFin.Location = new System.Drawing.Point(156, 159);
+            this.dtpFin.Name = "dtpFin";
+            this.dtpFin.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dtpFin.Size = new System.Drawing.Size(139, 28);
+            this.dtpFin.TabIndex = 42;
+            // 
+            // dtpInicio
+            // 
+            this.dtpInicio.CustomFormat = "HH:mm";
+            this.dtpInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpInicio.Location = new System.Drawing.Point(156, 86);
+            this.dtpInicio.Name = "dtpInicio";
+            this.dtpInicio.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dtpInicio.Size = new System.Drawing.Size(139, 28);
+            this.dtpInicio.TabIndex = 41;
+            // 
             // btnFiltrosGraf
             // 
             this.btnFiltrosGraf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -321,43 +361,16 @@
             this.btnFiltrosGraf.UseVisualStyleBackColor = false;
             this.btnFiltrosGraf.Click += new System.EventHandler(this.btnFiltrosGraf_Click);
             // 
-            // dtpInicio
+            // rbAuditoria
             // 
-            this.dtpInicio.CustomFormat = "HH:mm";
-            this.dtpInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpInicio.Location = new System.Drawing.Point(156, 86);
-            this.dtpInicio.Name = "dtpInicio";
-            this.dtpInicio.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dtpInicio.Size = new System.Drawing.Size(139, 28);
-            this.dtpInicio.TabIndex = 41;
-            // 
-            // dtpFin
-            // 
-            this.dtpFin.CustomFormat = "HH:mm";
-            this.dtpFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFin.Location = new System.Drawing.Point(156, 159);
-            this.dtpFin.Name = "dtpFin";
-            this.dtpFin.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dtpFin.Size = new System.Drawing.Size(139, 28);
-            this.dtpFin.TabIndex = 42;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(152, 62);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 21);
-            this.label5.TabIndex = 43;
-            this.label5.Text = "Fecha inicio";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(152, 135);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 21);
-            this.label1.TabIndex = 44;
-            this.label1.Text = "Fecha fin";
+            this.rbAuditoria.AutoSize = true;
+            this.rbAuditoria.Location = new System.Drawing.Point(305, 57);
+            this.rbAuditoria.Name = "rbAuditoria";
+            this.rbAuditoria.Size = new System.Drawing.Size(107, 25);
+            this.rbAuditoria.TabIndex = 52;
+            this.rbAuditoria.TabStop = true;
+            this.rbAuditoria.Text = "Auditoria";
+            this.rbAuditoria.UseVisualStyleBackColor = true;
             // 
             // frmReportes
             // 
@@ -408,5 +421,6 @@
         private System.Windows.Forms.DateTimePicker dtpInicio;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.RadioButton rbAuditoria;
     }
 }

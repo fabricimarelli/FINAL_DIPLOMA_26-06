@@ -17,7 +17,7 @@ namespace MODELO
 
         public override string ToString()
         {
-            return nombreUsuario;
+            return nombreUsuario ;
         }
     }
 }
