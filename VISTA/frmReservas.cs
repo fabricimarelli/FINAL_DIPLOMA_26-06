@@ -27,6 +27,7 @@ namespace VISTA
         private Reservas cReservas;
         private Aeronaves cAeronaves;
         private Socios cSocios;
+        private Mantenimientos cMantenimientos;
         private Reserva oReserva;
         char ACCION;
 
@@ -36,9 +37,9 @@ namespace VISTA
             cReservas=Reservas.ObtenerInstancia();
             cAeronaves=Aeronaves.ObtenerInstancia();
             cSocios=Socios.ObtenerInstancia();
+            cMantenimientos=Mantenimientos.ObtenerInstancia();
             MODO_GRILLA();
             ARMA_GRILLA();
-            //ARMA_GRILLA_MATRICULA();
         }
 
         private void ARMA_GRILLA()
@@ -109,10 +110,8 @@ namespace VISTA
 
         private void COMBO_RESERVAS()
         {
-            // Vacío la lista de reservas cada vez que quiero armar una nueva
             cmbReservas.Items.Clear();
             cmbReservas.Items.AddRange(cReservas.OBTENER_AERONAVE().ToArray());
-            //le pido al banco la lisya de clientes y la asigno como arreglo
             cmbReservas.Items.Insert(0, new MODELO.Aeronave { ID_aeronave = 0, matricula = "Todas las aeronaves..." });
             cmbReservas.DisplayMember = "matricula";
             cmbReservas.ValueMember = "ID_aeronave";
@@ -133,22 +132,17 @@ namespace VISTA
             }
             List<Piloto> listaPilotosSinLicencia = listaPilotos.Where(p => p.esPiloto).ToList();
             cmbPiloto.Items.Clear();
-
-            //le pido al banco la lisya de clientes y la asigno como arreglo
             cmbPiloto.Items.AddRange(listaPilotosSinLicencia.ToArray());
-
             cmbPiloto.DisplayMember = "apellido";
 
         }
 
         private void COMBO_AERONAVES()
         {
-
+            List<Aeronave> aeroList = cReservas.OBTENER_AERONAVE();
+            List<Aeronave>aeroDisp=aeroList.Where(v => v.enServicio==true).ToList();//trae solo las aeronaves que esten en servicio
             cmbAeronave.Items.Clear();
-
-            //le pido la lista y la asigno como arreglo
-            cmbAeronave.Items.AddRange(cReservas.OBTENER_AERONAVE().ToArray());
-            cmbAeronave.Items.Insert(0, new MODELO.Aeronave { matricula = "LV-..." });
+            cmbAeronave.DataSource = aeroDisp;
             cmbAeronave.DisplayMember = "matricula";
             cmbAeronave.ValueMember = "matricula";
 
@@ -296,6 +290,21 @@ namespace VISTA
             LIMPIAR();
         }
 
-        
+        private void dtpFecha_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime fechaSelec=dtpFecha.Value;
+            DateTime fechaInicio;
+            DateTime fechaFin;
+            List<Mantenimiento> listMant = cMantenimientos.ObtenerMantenimientos();
+            List<Mantenimiento> listAvion=listMant.Where(m => m.aeronave==cmbAeronave.SelectedItem).ToList();
+            List<Mantenimiento>lst=listAvion.Where(v => v.fechaInicio <= fechaSelec && v.fechaFin>=fechaSelec).ToList();
+            if (lst.Count() > 0)
+            {
+                fechaInicio = lst[0].fechaInicio;
+                fechaFin = lst[0].fechaFin;
+                MessageBox.Show("No es posible reservar la aeronave "+cmbAeronave.SelectedItem+" en la fecha seleccionada ya que se encuentra en manteniemiento desde "+fechaInicio.ToShortDateString()+" hasta "+fechaFin.ToShortDateString());
+                dtpFecha.Value = DateTime.Now;
+            }
+        }
     }
 }

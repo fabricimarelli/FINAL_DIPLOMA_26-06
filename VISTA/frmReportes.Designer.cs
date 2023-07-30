@@ -41,11 +41,12 @@
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.gbGenReportes = new System.Windows.Forms.GroupBox();
+            this.rbAuditoria = new System.Windows.Forms.RadioButton();
             this.rbReservas = new System.Windows.Forms.RadioButton();
             this.rbVuelos = new System.Windows.Forms.RadioButton();
             this.btnTempalte = new System.Windows.Forms.Button();
             this.gbFiltrosVuelosReserv = new System.Windows.Forms.GroupBox();
-            this.cmbAeronaveVuelos = new System.Windows.Forms.ComboBox();
+            this.cmbAeronave = new System.Windows.Forms.ComboBox();
             this.rbDNI = new System.Windows.Forms.RadioButton();
             this.rbAeronaveVuelos = new System.Windows.Forms.RadioButton();
             this.txtDNI = new System.Windows.Forms.TextBox();
@@ -60,7 +61,6 @@
             this.dtpFin = new System.Windows.Forms.DateTimePicker();
             this.dtpInicio = new System.Windows.Forms.DateTimePicker();
             this.btnFiltrosGraf = new System.Windows.Forms.Button();
-            this.rbAuditoria = new System.Windows.Forms.RadioButton();
             this.gbGenReportes.SuspendLayout();
             this.gbFiltrosVuelosReserv.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -86,6 +86,17 @@
             this.gbGenReportes.TabIndex = 47;
             this.gbGenReportes.TabStop = false;
             this.gbGenReportes.Text = "Generador de reportes";
+            // 
+            // rbAuditoria
+            // 
+            this.rbAuditoria.AutoSize = true;
+            this.rbAuditoria.Location = new System.Drawing.Point(305, 57);
+            this.rbAuditoria.Name = "rbAuditoria";
+            this.rbAuditoria.Size = new System.Drawing.Size(107, 25);
+            this.rbAuditoria.TabIndex = 52;
+            this.rbAuditoria.TabStop = true;
+            this.rbAuditoria.Text = "Auditoria";
+            this.rbAuditoria.UseVisualStyleBackColor = true;
             // 
             // rbReservas
             // 
@@ -128,7 +139,7 @@
             // 
             // gbFiltrosVuelosReserv
             // 
-            this.gbFiltrosVuelosReserv.Controls.Add(this.cmbAeronaveVuelos);
+            this.gbFiltrosVuelosReserv.Controls.Add(this.cmbAeronave);
             this.gbFiltrosVuelosReserv.Controls.Add(this.rbDNI);
             this.gbFiltrosVuelosReserv.Controls.Add(this.rbAeronaveVuelos);
             this.gbFiltrosVuelosReserv.Controls.Add(this.txtDNI);
@@ -141,16 +152,16 @@
             this.gbFiltrosVuelosReserv.TabStop = false;
             this.gbFiltrosVuelosReserv.Text = "Filtros vuelos y reservas";
             // 
-            // cmbAeronaveVuelos
+            // cmbAeronave
             // 
-            this.cmbAeronaveVuelos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.cmbAeronaveVuelos.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.cmbAeronaveVuelos.ForeColor = System.Drawing.Color.White;
-            this.cmbAeronaveVuelos.FormattingEnabled = true;
-            this.cmbAeronaveVuelos.Location = new System.Drawing.Point(186, 40);
-            this.cmbAeronaveVuelos.Name = "cmbAeronaveVuelos";
-            this.cmbAeronaveVuelos.Size = new System.Drawing.Size(199, 29);
-            this.cmbAeronaveVuelos.TabIndex = 47;
+            this.cmbAeronave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.cmbAeronave.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.cmbAeronave.ForeColor = System.Drawing.Color.White;
+            this.cmbAeronave.FormattingEnabled = true;
+            this.cmbAeronave.Location = new System.Drawing.Point(186, 40);
+            this.cmbAeronave.Name = "cmbAeronave";
+            this.cmbAeronave.Size = new System.Drawing.Size(199, 29);
+            this.cmbAeronave.TabIndex = 47;
             // 
             // rbDNI
             // 
@@ -361,17 +372,6 @@
             this.btnFiltrosGraf.UseVisualStyleBackColor = false;
             this.btnFiltrosGraf.Click += new System.EventHandler(this.btnFiltrosGraf_Click);
             // 
-            // rbAuditoria
-            // 
-            this.rbAuditoria.AutoSize = true;
-            this.rbAuditoria.Location = new System.Drawing.Point(305, 57);
-            this.rbAuditoria.Name = "rbAuditoria";
-            this.rbAuditoria.Size = new System.Drawing.Size(107, 25);
-            this.rbAuditoria.TabIndex = 52;
-            this.rbAuditoria.TabStop = true;
-            this.rbAuditoria.Text = "Auditoria";
-            this.rbAuditoria.UseVisualStyleBackColor = true;
-            // 
             // frmReportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -407,7 +407,7 @@
         private System.Windows.Forms.RadioButton rbReservas;
         private System.Windows.Forms.RadioButton rbVuelos;
         private System.Windows.Forms.GroupBox gbFiltrosVuelosReserv;
-        private System.Windows.Forms.ComboBox cmbAeronaveVuelos;
+        private System.Windows.Forms.ComboBox cmbAeronave;
         private System.Windows.Forms.RadioButton rbDNI;
         private System.Windows.Forms.RadioButton rbAeronaveVuelos;
         private System.Windows.Forms.TextBox txtDNI;

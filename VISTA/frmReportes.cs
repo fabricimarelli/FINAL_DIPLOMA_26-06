@@ -53,6 +53,7 @@ namespace VISTA
             GeneraGraficoDonaReservas(DateTime.Now.AddMonths(-1), DateTime.Now);
             gbFiltrosVuelosReserv.Enabled = false;
             rbReservas.Checked = true;
+            COMBO_AERONAVES();
         }
 
 
@@ -67,6 +68,19 @@ namespace VISTA
             {
                 btnReportExcel.Enabled = false;
             }
+        }
+
+        private void COMBO_AERONAVES()
+        {
+
+            cmbAeronave.Items.Clear();
+
+            //le pido la lista y la asigno como arreglo
+            cmbAeronave.Items.AddRange(cVuelos.OBTENER_AERONAVE().ToArray());
+            cmbAeronave.Items.Insert(0, new MODELO.Aeronave { matricula = "LV-..." });
+            cmbAeronave.DisplayMember = "matricula";
+            cmbAeronave.ValueMember = "matricula";
+
         }
 
         private void GenerarGraficoBarras()
@@ -197,8 +211,24 @@ namespace VISTA
         {
             if (rbVuelos.Checked == true)
             {
-                List<Vuelo> list = cVuelos.ObtenerVuelos(); // Obtén la lista de vuelos desde alguna fuente de datos
-                ReportePDF.GenerarReporte(list);
+                if (rbDNI.Checked == true)
+                {
+                    List<Vuelo> list = cVuelos.ObtenerVuelos(); // Obtén la lista de vuelos desde alguna fuente de datos
+                    List<Vuelo> listDNI = list.Where(v => v.piloto.DNI.ToString() == txtDNI.Text).ToList();
+                    ReportePDF.GenerarReporte(listDNI);
+                }
+                else if (rbAeronaveVuelos.Checked==true)
+                {
+                    List<Vuelo> list = cVuelos.ObtenerVuelos(); // Obtén la lista de vuelos desde alguna fuente de datos
+                    List<Vuelo> listMATRICULA = list.Where(v => v.aeronave == cmbAeronave.SelectedItem).ToList();
+                    ReportePDF.GenerarReporte(listMATRICULA);
+                }
+                else
+                {
+                    List<Vuelo> list = cVuelos.ObtenerVuelos(); // Obtén la lista de vuelos desde alguna fuente de datos
+                    ReportePDF.GenerarReporte(list);
+                }
+                
             }
             if (rbReservas.Checked == true)
             {
@@ -218,10 +248,14 @@ namespace VISTA
             if (rbReservas.Checked == true||rbAuditoria.Checked==true)
             {
                 btnReportExcel.Enabled = false;
+                cbAplicaFiltros.Enabled = false;
+                rbDNI.Checked = false;
+                rbAeronaveVuelos.Checked = false;
             }
             else
             {
                 btnReportExcel.Enabled = true;
+                cbAplicaFiltros.Enabled = true;
             }
         }
 
@@ -229,12 +263,12 @@ namespace VISTA
         {
             if(rbAeronaveVuelos.Checked == true)
             {
-                cmbAeronaveVuelos.Enabled = true;
+                cmbAeronave.Enabled = true;
                 txtDNI.Enabled = false;
             }
             else
             {
-                cmbAeronaveVuelos.Enabled = false;
+                cmbAeronave.Enabled = false;
                 txtDNI.Enabled = true;
             }
         }

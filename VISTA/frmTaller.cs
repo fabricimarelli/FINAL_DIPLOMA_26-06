@@ -378,6 +378,14 @@ namespace VISTA
                 {
                     oAeronaveSelec.taquimetroFuturo += (oMantenimiento.proximoMant - origTime);
                 }
+                if (rbProceso.Checked)
+                {
+                    oAeronaveSelec.enServicio = false;
+                }
+                if (rbPendiente.Checked || rbFinalizado.Checked)
+                {
+                    oAeronaveSelec.enServicio = true;
+                }
                 cAeronaves.ModificarAeronave(oAeronaveSelec);
             }
 
